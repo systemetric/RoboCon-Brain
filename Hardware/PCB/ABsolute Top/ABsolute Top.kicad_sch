@@ -3556,12 +3556,6 @@
 		(uuid "5c7c3166-1c0a-4231-b1f1-1cac7d95eb13")
 	)
 	(junction
-		(at 133.35 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68b5d811-7c1a-4e74-bd0e-0baadb39c407")
-	)
-	(junction
 		(at 247.65 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3572,6 +3566,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75a850a5-7f66-4adc-b600-f1f6383f19bf")
+	)
+	(junction
+		(at 133.35 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7717c43a-6292-406c-a4bf-174a6e4726f4")
 	)
 	(junction
 		(at 143.51 69.85)
@@ -3640,6 +3640,12 @@
 		(uuid "c3a3b225-72d2-4348-a932-42b279b08cd4")
 	)
 	(junction
+		(at 133.35 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7ee2c2d-e828-4b3c-a78a-263a78648a95")
+	)
+	(junction
 		(at 115.57 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3680,12 +3686,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f867b0a9-11fd-4553-bd58-18882a9539e2")
-	)
-	(junction
-		(at 133.35 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f93d307a-c55b-4427-bfb3-af288c541391")
 	)
 	(junction
 		(at 220.98 144.78)
@@ -4017,7 +4017,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 64.77) (xy 133.35 64.77)
+			(xy 114.3 64.77) (xy 125.73 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4127,7 +4127,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 133.35 87.63)
+			(xy 114.3 87.63) (xy 125.73 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4596,7 +4596,7 @@
 		(uuid "2fa5335e-5c04-44de-9cb6-9ff648a9db32")
 	)
 	(label "SW_POWER"
-		(at 121.92 64.77 0)
+		(at 114.3 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4726,7 +4726,7 @@
 		(uuid "7e08ad5f-1845-496e-b38c-6cd7d29e4350")
 	)
 	(label "SW_START"
-		(at 121.92 87.63 0)
+		(at 114.3 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5842,6 +5842,86 @@
 			(project "ABsolute Top"
 				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 64.77 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2618a52c-031a-48ee-af6c-67e6b410c484")
+		(property "Reference" "R3"
+			(at 129.54 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 129.54 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 66.548 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4da5fdb3-2455-4989-950d-ba465326bf75")
+		)
+		(pin "2"
+			(uuid "944a77ea-98dc-43dc-ab20-344636d37209")
+		)
+		(instances
+			(project "ABsolute Top"
+				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7853,6 +7933,86 @@
 			(project "ABsolute Top"
 				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 87.63 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97282809-8883-4154-9531-a3650d42b206")
+		(property "Reference" "R4"
+			(at 129.54 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 129.54 83.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 89.408 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "712f9437-a34d-4a81-911a-8f153b641c10")
+		)
+		(pin "2"
+			(uuid "3dc62351-caef-4e09-ac63-eae3e84c9fe0")
+		)
+		(instances
+			(project "ABsolute Top"
+				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
+					(reference "R4")
 					(unit 1)
 				)
 			)
