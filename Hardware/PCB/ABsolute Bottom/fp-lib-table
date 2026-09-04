@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ABsolute") (type "KiCad") (uri "C:/Users/logan/Documents/GitHub/RoboCon-Brain/Hardware/PCB/Libraries/ABsolute.pretty") (options "") (descr ""))
+)
