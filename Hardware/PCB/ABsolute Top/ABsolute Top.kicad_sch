@@ -3484,12 +3484,6 @@
 		(uuid "04a94e0d-e4e1-4c98-8b48-4533ed6b5898")
 	)
 	(junction
-		(at 232.41 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0afefd22-a6f8-4f2b-a160-422cc54e5897")
-	)
-	(junction
 		(at 247.65 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3586,6 +3580,12 @@
 		(uuid "7fcae6c2-118f-4f7a-8616-eaddbcc3b073")
 	)
 	(junction
+		(at 232.41 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d377e60-abc7-489c-b6d3-6151f339d124")
+	)
+	(junction
 		(at 262.89 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3640,16 +3640,16 @@
 		(uuid "c3a3b225-72d2-4348-a932-42b279b08cd4")
 	)
 	(junction
-		(at 232.41 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d444ee21-f88e-4531-92b6-7bcb61b68c56")
-	)
-	(junction
 		(at 115.57 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1e50d43-eb13-4ffc-b8ba-2ba380df80dc")
+	)
+	(junction
+		(at 232.41 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6444b8b-06f4-421f-90b5-a3941c15cd26")
 	)
 	(junction
 		(at 97.79 39.37)
@@ -5095,84 +5095,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 247.65 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02d8a1a3-a3e6-4e49-abe4-a8d84803b318")
-		(property "Reference" "#PWR013"
-			(at 247.65 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VBAT_INT"
-			(at 247.65 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 247.65 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "381dbf7f-ab03-4bd1-b42e-e9fc3d161d3c")
-		)
-		(instances
-			(project "ABsolute Top"
-				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 157.48 148.59 180)
 		(unit 1)
@@ -5765,6 +5687,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 247.65 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24839263-f6bf-4b0f-82d6-a7f85008cd69")
+		(property "Reference" "#PWR01"
+			(at 247.65 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBAT_AUX"
+			(at 247.65 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 247.65 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "094f013e-9e37-45f9-999e-059898b75a2c")
+		)
+		(instances
+			(project "ABsolute Top"
+				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 220.98 68.58 0)
 		(mirror x)
@@ -5842,84 +5842,6 @@
 			(project "ABsolute Top"
 				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 232.41 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f38df8b-3818-4003-ad86-3c2c989b65bd")
-		(property "Reference" "#PWR08"
-			(at 232.41 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VBAT_INT"
-			(at 232.41 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 232.41 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bcb32225-6eab-4d29-acab-6d9f14503bea")
-		)
-		(instances
-			(project "ABsolute Top"
-				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6088,6 +6010,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 232.41 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33c6c802-a478-407b-a0cb-887fda3807b4")
+		(property "Reference" "#PWR08"
+			(at 232.41 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBAT_AUX"
+			(at 232.41 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fa4332e-cfd7-430c-966f-72497dd969bf")
+		)
+		(instances
+			(project "ABsolute Top"
+				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_Dual")
 		(at 138.43 67.31 0)
 		(unit 1)
@@ -6247,84 +6247,6 @@
 			(project "ABsolute Top"
 				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 232.41 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43c3729f-a5f2-4b76-991e-e0a5909f994b")
-		(property "Reference" "#PWR012"
-			(at 232.41 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VBAT_INT"
-			(at 232.41 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 232.41 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 232.41 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "46acb7ef-a57d-414d-a32f-cb3d7384ed18")
-		)
-		(instances
-			(project "ABsolute Top"
-				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6740,6 +6662,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 247.65 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fe924d0-a5b4-49c4-b8ea-94d54ac18db5")
+		(property "Reference" "#PWR013"
+			(at 247.65 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBAT_AUX"
+			(at 247.65 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 247.65 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a64ed8c4-cbf4-403d-b1e9-8976e5a929d7")
+		)
+		(instances
+			(project "ABsolute Top"
+				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 142.24 128.27 0)
 		(mirror y)
@@ -6974,84 +6974,6 @@
 			(project "ABsolute Top"
 				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 247.65 24.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b17ed49-e3ee-46ff-a04b-64e2de3f31fa")
-		(property "Reference" "#PWR015"
-			(at 247.65 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VBAT_INT"
-			(at 247.65 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 247.65 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b518df16-07e0-4a5a-92d5-7a3a04d10412")
-		)
-		(instances
-			(project "ABsolute Top"
-				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7692,6 +7614,84 @@
 			(project "ABsolute Top"
 				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 232.41 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90ec6706-f685-46cd-9b8a-ef0ffe2ebdfd")
+		(property "Reference" "#PWR015"
+			(at 232.41 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VBAT_AUX"
+			(at 232.41 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 232.41 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65d2f52d-903b-4c67-8256-f750ebb00134")
+		)
+		(instances
+			(project "ABsolute Top"
+				(path "/f4bf3b34-cf4c-404e-a1ac-18855ea147f8"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
