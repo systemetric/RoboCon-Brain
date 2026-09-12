@@ -686,17 +686,44 @@
     "top_level_sheets": [
       {
         "filename": "ABsolute Bottom.kicad_sch",
-        "name": "ABsolute Bottom",
+        "name": "Pi, Microcontroller, and IMU",
         "uuid": "324f0d25-1b38-4559-b0f5-f02adf9481a7"
+      },
+      {
+        "filename": "power_management.kicad_sch",
+        "name": "Power Management",
+        "uuid": "86157aa7-0179-496e-992f-2820ab2e9190"
+      },
+      {
+        "filename": "usb.kicad_sch",
+        "name": "USB",
+        "uuid": "36e5e0d1-44c8-4304-b6c8-3355ef55ad1e"
+      },
+      {
+        "filename": "motor_controllers.kicad_sch",
+        "name": "Motor Controllers",
+        "uuid": "0c577dc9-e915-4306-8e3c-62227d91ddb1"
       }
     ],
-    "used_designators": "Y1-3,R17-19,IC1,IC3,J4,J6-7,U6-11,#PWR22,#PWR27-28,#PWR30,#PWR47-53,C24-31",
+    "used_designators": "Y1-3,R1-19,IC1,IC3,J4-7,U2-4,U6-11,L1-2,#PWR1,#PWR4-5,#PWR8,#PWR10-11,#PWR14-20,#PWR22-39,#PWR44-53,C4-20,C24-31,Q1-2",
     "variants": []
   },
   "sheets": [
     [
       "324f0d25-1b38-4559-b0f5-f02adf9481a7",
-      "ABsolute Bottom"
+      "Pi, Microcontroller, and IMU"
+    ],
+    [
+      "86157aa7-0179-496e-992f-2820ab2e9190",
+      "Power Management"
+    ],
+    [
+      "36e5e0d1-44c8-4304-b6c8-3355ef55ad1e",
+      "USB"
+    ],
+    [
+      "0c577dc9-e915-4306-8e3c-62227d91ddb1",
+      "Motor Controllers"
     ]
   ],
   "text_variables": {},
