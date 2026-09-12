@@ -53,7 +53,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -187,7 +193,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +222,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -224,7 +237,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -495,6 +508,34 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "3.3V",
+        "pcb_color": "rgb(255, 228, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 228, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "5V",
+        "pcb_color": "rgb(255, 112, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(255, 112, 0)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgb(0, 30, 255)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 30, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "VBAT",
+        "pcb_color": "rgb(255, 0, 3)",
+        "priority": 2,
+        "schematic_color": "rgb(255, 0, 3)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -502,7 +543,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "VBAT",
+        "pattern": "+VBAT*"
+      },
+      {
+        "netclass": "5V",
+        "pattern": "+5V*"
+      },
+      {
+        "netclass": "3.3V",
+        "pattern": "+3.3V*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -632,7 +690,7 @@
         "uuid": "324f0d25-1b38-4559-b0f5-f02adf9481a7"
       }
     ],
-    "used_designators": "IC1,R5-6,R11,R13-16,J2-5,L3,#PWR9,#PWR12-14,#PWR20-21,#PWR23-26,#PWR29,#PWR31-43,Q1-2,U3-5,C20-23",
+    "used_designators": "Y1-3,R17-19,IC1,IC3,J4,J6-7,U6-11,#PWR22,#PWR27-28,#PWR30,#PWR47-53,C24-31",
     "variants": []
   },
   "sheets": [
