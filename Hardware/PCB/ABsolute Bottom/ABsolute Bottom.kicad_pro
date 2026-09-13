@@ -533,7 +533,7 @@
       {
         "name": "MOTOR",
         "pcb_color": "rgb(149, 0, 255)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(149, 0, 255)",
         "tuning_profile": ""
       },
@@ -545,16 +545,23 @@
         "tuning_profile": ""
       },
       {
+        "name": "SENSOR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(0, 173, 255)",
+        "tuning_profile": ""
+      },
+      {
         "name": "SIGNALS",
         "pcb_color": "rgb(0, 197, 197)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(0, 197, 197)",
         "tuning_profile": ""
       },
       {
         "name": "USB",
         "pcb_color": "rgb(0, 207, 0)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(0, 207, 0)",
         "tuning_profile": ""
       },
@@ -651,6 +658,10 @@
       {
         "netclass": "SIGNALS",
         "pattern": "/GPIO(1|2|3|4|5|6)"
+      },
+      {
+        "netclass": "SENSOR",
+        "pattern": "/IMU_(CS|INT|MISO|MOSI|SCK)"
       }
     ]
   },
