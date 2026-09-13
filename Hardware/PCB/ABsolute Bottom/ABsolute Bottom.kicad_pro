@@ -640,12 +640,84 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -696,16 +768,16 @@
       },
       {
         "filename": "usb.kicad_sch",
-        "name": "USB",
+        "name": "USB Hub",
         "uuid": "36e5e0d1-44c8-4304-b6c8-3355ef55ad1e"
       },
       {
         "filename": "motor_controllers.kicad_sch",
-        "name": "Motor Controllers",
+        "name": "Motor Controllers and Connectors",
         "uuid": "0c577dc9-e915-4306-8e3c-62227d91ddb1"
       }
     ],
-    "used_designators": "#PWR56,#PWR59,R19,R21",
+    "used_designators": "L1-2,#PWR1-78,C1-51,R1-23,J1-4,IC1,Q1-2,U1-13,Y1",
     "variants": []
   },
   "sheets": [
@@ -719,11 +791,11 @@
     ],
     [
       "36e5e0d1-44c8-4304-b6c8-3355ef55ad1e",
-      "USB"
+      "USB Hub"
     ],
     [
       "0c577dc9-e915-4306-8e3c-62227d91ddb1",
-      "Motor Controllers"
+      "Motor Controllers and Connectors"
     ]
   ],
   "text_variables": {},

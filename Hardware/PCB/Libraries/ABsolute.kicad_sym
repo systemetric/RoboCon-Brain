@@ -68030,9 +68030,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -21.59 8.89 0)
+			(pin no_connect line
+				(at -63.5 -3.81 0)
 				(length 5.08)
+				(hide yes)
 				(name "RESET#"
 					(effects
 						(font

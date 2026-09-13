@@ -1839,26 +1839,26 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -17.78 36.83 0)
+			(property "Reference" "U1"
+				(at 2.1433 -38.1 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Value" "AVR128DA48x-xPT"
-				(at 5.08 -36.83 0)
+			(property "Value" "AVR128DA48-I/PT"
+				(at 2.1433 -40.64 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_QFP:TQFP-48_7x7mm_P0.5mm"
@@ -3499,7 +3499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "021e90e4-140b-4b18-8a99-1cae6e479682")
-		(property "Reference" "C21"
+		(property "Reference" "C4"
 			(at 135.89 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3563,7 +3563,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "C21")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3803,7 +3803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a35bbcb-b554-4c9d-9656-8459a35b3e87")
-		(property "Reference" "C23"
+		(property "Reference" "C6"
 			(at 156.21 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3867,7 +3867,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "C23")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3964,7 +3964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f219725-de5c-4176-968b-d51cafc9130c")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 142.24 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4062,7 +4062,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4081,7 +4081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a92b71d-2b4d-4255-9221-fb1e6851832f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR01"
 			(at 69.85 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -4141,7 +4141,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "#PWR07")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4160,7 +4160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b45c673-5eac-4c4f-9cfb-09b528e935a3")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR05"
 			(at 121.92 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4220,7 +4220,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "#PWR041")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4238,7 +4238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58de9a86-ab2e-46f0-82ed-679ce85a3680")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR06"
 			(at 121.92 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4298,7 +4298,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "#PWR040")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4317,7 +4317,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d035620-0764-4399-a2a8-fe411b2d9663")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR08"
 			(at 142.24 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4377,7 +4377,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "#PWR043")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4479,7 +4479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84f5a78a-5219-4bf3-a368-c1d5ec4f953f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR03"
 			(at 69.85 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4539,7 +4539,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "#PWR06")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4557,7 +4557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94bc1862-3efb-4746-a641-97a752b55e4a")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 222.25 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4733,7 +4733,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4752,7 +4752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b645f45-0a3d-44c0-a36f-bd56d68d4c55")
-		(property "Reference" "C22"
+		(property "Reference" "C5"
 			(at 146.05 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4816,7 +4816,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "C22")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4835,7 +4835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcd4d107-551e-4ad7-b3ef-622ba6418b70")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR04"
 			(at 69.85 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4895,7 +4895,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "#PWR03")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5075,7 +5075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfebb308-e726-4282-b9d7-264313333757")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR010"
 			(at 213.36 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5135,7 +5135,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "#PWR013")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5236,7 +5236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea50ba30-be40-41e4-91bb-736c7051e707")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR011"
 			(at 231.14 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5296,7 +5296,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "#PWR021")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5394,7 +5394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb00bbe-9ae9-4e8f-a6a8-72396a1021c2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR07"
 			(at 142.24 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5454,7 +5454,7 @@
 		(instances
 			(project "ABsolute Bottom"
 				(path "/324f0d25-1b38-4559-b0f5-f02adf9481a7"
-					(reference "#PWR042")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
