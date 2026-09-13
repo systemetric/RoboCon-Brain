@@ -67414,8 +67414,8 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
-			(at 64.77 50.8 0)
-			(show_name yes)
+			(at 13.716 27.432 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -67425,8 +67425,8 @@
 			)
 		)
 		(property "Value" "CY7C65632-48AXC"
-			(at 64.77 48.26 0)
-			(show_name yes)
+			(at 13.716 24.892 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -67439,6 +67439,7 @@
 			(at 64.77 -51.74 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67450,6 +67451,7 @@
 			(at 64.77 -151.74 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67458,9 +67460,10 @@
 			)
 		)
 		(property "Description" "CYPRESS SEMICONDUCTOR - CY7C65632-48AXC - USB Interface, HX2VL Architecture, USB Hub Controller, USB 2.0, 3.15 V, 3.6 V, TQFP, 48 Pins"
-			(at 0 0 0)
+			(at 75.692 -103.632 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67471,6 +67474,7 @@
 			(at 64.77 -351.74 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67482,6 +67486,7 @@
 			(at 64.77 -451.74 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67493,6 +67498,7 @@
 			(at 64.77 -551.74 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67504,6 +67510,7 @@
 			(at 64.77 -651.74 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67515,6 +67522,7 @@
 			(at 64.77 -751.74 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67526,6 +67534,7 @@
 			(at 64.77 -851.74 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67537,6 +67546,7 @@
 			(at 64.77 -951.74 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67546,8 +67556,8 @@
 		)
 		(symbol "CY7C65632-48AXC_1_1"
 			(rectangle
-				(start 5.08 45.72)
-				(end 63.5 -63.5)
+				(start -16.51 19.05)
+				(end 16.51 -13.97)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -67557,9 +67567,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 0 0)
+				(at 2.54 24.13 270)
 				(length 5.08)
-				(name "VCC_A_1"
+				(name "VCC_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -67575,9 +67585,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 0)
+				(at 0 -19.05 90)
 				(length 5.08)
-				(name "GND_1"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -67593,7 +67603,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 0)
+				(at 21.59 16.51 180)
 				(length 5.08)
 				(name "D-"
 					(effects
@@ -67611,7 +67621,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 0)
+				(at 21.59 13.97 180)
 				(length 5.08)
 				(name "D+"
 					(effects
@@ -67629,7 +67639,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -10.16 0)
+				(at 21.59 8.89 180)
 				(length 5.08)
 				(name "DD-[1]"
 					(effects
@@ -67647,7 +67657,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -12.7 0)
+				(at 21.59 6.35 180)
 				(length 5.08)
 				(name "DD+[1]"
 					(effects
@@ -67665,8 +67675,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15.24 0)
+				(at 2.54 24.13 270)
 				(length 5.08)
+				(hide yes)
 				(name "VCC_A_2"
 					(effects
 						(font
@@ -67683,8 +67694,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -17.78 0)
+				(at 0 -19.05 90)
 				(length 5.08)
+				(hide yes)
 				(name "GND_2"
 					(effects
 						(font
@@ -67701,7 +67713,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -20.32 0)
+				(at 21.59 -3.81 180)
 				(length 5.08)
 				(name "DD-[2]"
 					(effects
@@ -67719,7 +67731,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -22.86 0)
+				(at 21.59 -6.35 180)
 				(length 5.08)
 				(name "DD+[2]"
 					(effects
@@ -67737,7 +67749,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -25.4 0)
+				(at -21.59 -3.81 0)
 				(length 5.08)
 				(name "RREF"
 					(effects
@@ -67755,8 +67767,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -27.94 0)
+				(at 2.54 24.13 270)
 				(length 5.08)
+				(hide yes)
 				(name "VCC_A_3"
 					(effects
 						(font
@@ -67773,8 +67786,9 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 -68.58 90)
+				(at 0 -19.05 90)
 				(length 5.08)
+				(hide yes)
 				(name "GND_3"
 					(effects
 						(font
@@ -67791,7 +67805,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -68.58 90)
+				(at -21.59 16.51 0)
 				(length 5.08)
 				(name "XIN"
 					(effects
@@ -67809,7 +67823,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -68.58 90)
+				(at -21.59 13.97 0)
 				(length 5.08)
 				(name "XOUT"
 					(effects
@@ -67827,8 +67841,9 @@
 				)
 			)
 			(pin passive line
-				(at 27.94 -68.58 90)
+				(at 2.54 24.13 270)
 				(length 5.08)
+				(hide yes)
 				(name "VCC_A_4"
 					(effects
 						(font
@@ -67844,9 +67859,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 30.48 -68.58 90)
+			(pin no_connect line
+				(at -63.5 -19.05 0)
 				(length 5.08)
+				(hide yes)
 				(name "DD-[3]"
 					(effects
 						(font
@@ -67862,9 +67878,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 33.02 -68.58 90)
+			(pin no_connect line
+				(at -63.5 -21.59 0)
 				(length 5.08)
+				(hide yes)
 				(name "DD+[3]"
 					(effects
 						(font
@@ -67881,8 +67898,9 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -68.58 90)
+				(at 2.54 24.13 270)
 				(length 5.08)
+				(hide yes)
 				(name "VCC_A_5"
 					(effects
 						(font
@@ -67899,8 +67917,9 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 -68.58 90)
+				(at 0 -19.05 90)
 				(length 5.08)
+				(hide yes)
 				(name "GND_4"
 					(effects
 						(font
@@ -67916,9 +67935,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 40.64 -68.58 90)
+			(pin no_connect line
+				(at -63.5 -29.21 0)
 				(length 5.08)
+				(hide yes)
 				(name "DD-[4]"
 					(effects
 						(font
@@ -67934,9 +67954,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 43.18 -68.58 90)
+			(pin no_connect line
+				(at -63.5 -31.75 0)
 				(length 5.08)
+				(hide yes)
 				(name "DD+[4]"
 					(effects
 						(font
@@ -67952,10 +67973,11 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 45.72 -68.58 90)
+			(pin no_connect line
+				(at -63.5 -6.35 0)
 				(length 5.08)
-				(name "GREEN[4]_/FIXED_PORT4"
+				(hide yes)
+				(name "FIXED_PORT4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -67971,9 +67993,10 @@
 				)
 			)
 			(pin passive line
-				(at 48.26 -68.58 90)
+				(at 0 -19.05 90)
 				(length 5.08)
-				(name "AMBER[4]_/_SET_PORT_NUM1"
+				(hide yes)
+				(name "SET_PORT_NUM1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -67989,8 +68012,9 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -27.94 180)
+				(at 5.08 24.13 270)
 				(length 5.08)
+				(hide yes)
 				(name "SEL48"
 					(effects
 						(font
@@ -68007,7 +68031,7 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -25.4 180)
+				(at -21.59 8.89 0)
 				(length 5.08)
 				(name "RESET#"
 					(effects
@@ -68025,9 +68049,10 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -22.86 180)
+				(at 0 -19.05 90)
 				(length 5.08)
-				(name "TEST_/_SCL"
+				(hide yes)
+				(name "TEST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -68042,9 +68067,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 68.58 -20.32 180)
+			(pin no_connect line
+				(at -63.5 -34.29 0)
 				(length 5.08)
+				(hide yes)
 				(name "OVR#[4]"
 					(effects
 						(font
@@ -68060,9 +68086,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 68.58 -17.78 180)
+			(pin no_connect line
+				(at -63.5 -36.83 0)
 				(length 5.08)
+				(hide yes)
 				(name "PWR#[4]"
 					(effects
 						(font
@@ -68078,9 +68105,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 68.58 -15.24 180)
+			(pin no_connect line
+				(at -63.5 -24.13 0)
 				(length 5.08)
+				(hide yes)
 				(name "OVR#[3]"
 					(effects
 						(font
@@ -68096,9 +68124,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 68.58 -12.7 180)
+			(pin no_connect line
+				(at -63.5 -26.67 0)
 				(length 5.08)
+				(hide yes)
 				(name "PWR#[3]"
 					(effects
 						(font
@@ -68114,10 +68143,11 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 68.58 -10.16 180)
+			(pin no_connect line
+				(at -63.5 -8.89 0)
 				(length 5.08)
-				(name "GREEN[3]_/_FIXED_PORT3"
+				(hide yes)
+				(name "FIXED_PORT3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -68133,9 +68163,10 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -7.62 180)
+				(at 5.08 24.13 270)
 				(length 5.08)
-				(name "AMBER[3]_/_SET_PORT_NUM2"
+				(hide yes)
+				(name "SET_PORT_NUM2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -68151,9 +68182,9 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 -5.08 180)
+				(at 5.08 24.13 270)
 				(length 5.08)
-				(name "VCC_D_1"
+				(name "VCC_D"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -68168,10 +68199,11 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 68.58 -2.54 180)
+			(pin no_connect line
+				(at -63.5 -11.43 0)
 				(length 5.08)
-				(name "GREEN[2]_/_SPI_MISO_/_FIXED_PORT2"
+				(hide yes)
+				(name "FIXED_PORT2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -68187,9 +68219,10 @@
 				)
 			)
 			(pin passive line
-				(at 68.58 0 180)
+				(at 5.08 24.13 270)
 				(length 5.08)
-				(name "AMBER[2]_/_SPI_MOSI_/PWR_PIN_POL"
+				(hide yes)
+				(name "PWR_PIN_POL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -68205,8 +68238,9 @@
 				)
 			)
 			(pin passive line
-				(at 48.26 50.8 270)
+				(at 5.08 24.13 270)
 				(length 5.08)
+				(hide yes)
 				(name "SELFPWR"
 					(effects
 						(font
@@ -68223,8 +68257,9 @@
 				)
 			)
 			(pin passive line
-				(at 45.72 50.8 270)
+				(at 5.08 24.13 270)
 				(length 5.08)
+				(hide yes)
 				(name "VCC_D_2"
 					(effects
 						(font
@@ -68241,7 +68276,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 50.8 270)
+				(at -21.59 3.81 0)
 				(length 5.08)
 				(name "GANG"
 					(effects
@@ -68259,7 +68294,7 @@
 				)
 			)
 			(pin passive line
-				(at 40.64 50.8 270)
+				(at 21.59 -8.89 180)
 				(length 5.08)
 				(name "OVR#[2]"
 					(effects
@@ -68277,7 +68312,7 @@
 				)
 			)
 			(pin passive line
-				(at 38.1 50.8 270)
+				(at 21.59 -11.43 180)
 				(length 5.08)
 				(name "PWR#[2]"
 					(effects
@@ -68295,7 +68330,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 50.8 270)
+				(at 21.59 3.81 180)
 				(length 5.08)
 				(name "OVR#[1]"
 					(effects
@@ -68313,9 +68348,9 @@
 				)
 			)
 			(pin passive line
-				(at 33.02 50.8 270)
+				(at 21.59 1.27 180)
 				(length 5.08)
-				(name "PWR#[1]_/_I2C_SDA"
+				(name "PWR#[1]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -68331,8 +68366,9 @@
 				)
 			)
 			(pin passive line
-				(at 30.48 50.8 270)
+				(at 5.08 24.13 270)
 				(length 5.08)
+				(hide yes)
 				(name "SEL27"
 					(effects
 						(font
@@ -68348,10 +68384,11 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 27.94 50.8 270)
+			(pin no_connect line
+				(at -63.5 -13.97 0)
 				(length 5.08)
-				(name "GREEN[1]_/_SPI_SK_/_FIXED_PORT1"
+				(hide yes)
+				(name "FIXED_PORT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -68366,10 +68403,11 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 25.4 50.8 270)
+			(pin no_connect line
+				(at -63.5 -16.51 0)
 				(length 5.08)
-				(name "AMBER[1]_/SPI_CS"
+				(hide yes)
+				(name "AMBER[1]"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -68385,7 +68423,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 50.8 270)
+				(at -5.08 24.13 270)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -68403,7 +68441,7 @@
 				)
 			)
 			(pin passive line
-				(at 20.32 50.8 270)
+				(at 0 24.13 270)
 				(length 5.08)
 				(name "VREG"
 					(effects
