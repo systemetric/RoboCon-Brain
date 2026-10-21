@@ -1,0 +1,9 @@
+# KiCad
+**/.history/
+**/*-backups/
+**/*.lck
+
+# Backup files
+**/*.bak
+**/*~
+**/*.tmp
