@@ -9430,6 +9430,10 @@
 		(uuid "fd470e95-4861-44fe-b1e4-6d8a7c66e144")
 	)
 	(no_connect
+		(at 13.97 48.26)
+		(uuid "00b0c8a5-599a-49c1-aa10-cc6163ee8acf")
+	)
+	(no_connect
 		(at 191.77 140.97)
 		(uuid "0bfd11c6-45e8-41dc-bda3-9a12f331c43f")
 	)
@@ -9516,10 +9520,6 @@
 	(no_connect
 		(at 212.09 133.35)
 		(uuid "34afc9f8-f604-4e49-b3e8-15c216ba31aa")
-	)
-	(no_connect
-		(at 242.57 100.33)
-		(uuid "3d1a90b5-3805-40d3-ab4e-0dba392d2d18")
 	)
 	(no_connect
 		(at 104.14 3.81)
@@ -10535,7 +10535,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 48.26) (xy 41.91 48.26)
+			(xy 13.97 48.26) (xy 41.91 48.26)
 		)
 		(stroke
 			(width 0)
@@ -11245,6 +11245,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 156.21) (xy 119.38 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b248a981-9688-437d-bbd2-1e48f2ab1b93")
+	)
+	(wire
+		(pts
 			(xy 54.61 66.04) (xy 81.28 66.04)
 		)
 		(stroke
@@ -11873,6 +11883,16 @@
 		)
 		(uuid "07e98665-bb47-4468-a008-ea3461b70a85")
 	)
+	(label "Motor_B_PWM"
+		(at 105.41 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13802e4b-6bac-4f60-b78d-1bf61f18c665")
+	)
 	(label "MOSI"
 		(at 242.57 36.83 0)
 		(effects
@@ -11972,6 +11992,16 @@
 			(justify left bottom)
 		)
 		(uuid "6b0451d5-5097-444b-9056-1958053d0d2b")
+	)
+	(label "Motor_B_PWM"
+		(at 242.57 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e690429-52b7-4b54-ab02-3d0b27e8310b")
 	)
 	(label "PWM2"
 		(at 255.27 66.04 0)
@@ -12223,16 +12253,6 @@
 		)
 		(uuid "d4537196-0c2e-4ad4-8010-faf3a55519c1")
 	)
-	(label "GPIO[9]"
-		(at 26.67 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8a56537-614c-4c1a-9097-e8c3603cc93c")
-	)
 	(label "M_AP"
 		(at 160.02 31.75 0)
 		(effects
@@ -12409,6 +12429,30 @@
 			)
 		)
 	)
+	(global_label "UPDI_Top{slash}Motor_B_PWM"
+		(shape bidirectional)
+		(at 125.73 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b3d27d2-5f13-437d-913b-2b9c349d54c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.5046 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "nSHUTDOWN_3"
 		(shape output)
 		(at 250.19 26.67 0)
@@ -12529,30 +12573,6 @@
 			)
 		)
 	)
-	(global_label "UPDI_Sel"
-		(shape output)
-		(at 22.86 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3b71a8ff-c1f9-4932-b5ea-6026891602a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 11.3735 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "PISDA"
 		(shape bidirectional)
 		(at 20.32 25.4 180)
@@ -12649,6 +12669,54 @@
 			)
 		)
 	)
+	(global_label "UPDI_Top{slash}Motor_B_PWM"
+		(shape bidirectional)
+		(at 139.7 161.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66244712-b210-4845-8f02-6b43be38a34c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.4746 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "Pintype_Sel"
+		(shape input)
+		(at 139.7 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a39fe14-0226-40b9-b891-a23b3df56e27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.6659 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PISCL"
 		(shape bidirectional)
 		(at 191.77 151.13 180)
@@ -12686,30 +12754,6 @@
 		(uuid "735a94ad-c860-4e06-9eef-545d25a4e3a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 259.7484 34.2106 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "UPDI_Top"
-		(shape bidirectional)
-		(at 121.92 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7840c120-00b3-4fda-a494-af7500c3c4d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.7248 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13107,7 +13151,7 @@
 	)
 	(global_label "UPDI_Sel"
 		(shape input)
-		(at 101.6 180.34 180)
+		(at 99.06 181.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13117,7 +13161,7 @@
 		)
 		(uuid "da28829a-7c6f-412d-bf67-faed227512a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.1135 180.34 0)
+			(at 87.5735 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13251,7 +13295,7 @@
 	)
 	(global_label "UPDI_Bottom"
 		(shape bidirectional)
-		(at 121.92 175.26 0)
+		(at 119.38 176.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13261,7 +13305,7 @@
 		)
 		(uuid "e256637d-2e05-4382-badd-8eeb6f48d997")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.1719 175.26 0)
+			(at 135.6319 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13369,33 +13413,9 @@
 			)
 		)
 	)
-	(global_label "UPDI_Top"
-		(shape bidirectional)
-		(at 125.73 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f16c668a-2dde-47b6-b5ea-5239f773ec05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.5348 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "UPDI"
 		(shape bidirectional)
-		(at 101.6 170.18 180)
+		(at 99.06 171.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13405,7 +13425,7 @@
 		)
 		(uuid "f445db4c-4ac2-49fc-936c-7b595732d938")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.0284 170.18 0)
+			(at 90.4884 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16374,6 +16394,175 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 140.97 190.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "569e1f56-eb85-4faf-acaf-7e8ed2a9b3f6")
+		(property "Reference" "#PWR013"
+			(at 140.97 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "635a9825-d1db-4995-9d24-a271c9574d42")
+		)
+		(instances
+			(project "PiLow"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G3157")
+		(at 129.54 161.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "597e8d5e-3039-4392-bd81-c691c41eca87")
+		(property "Reference" "U6"
+			(at 130.81 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC1G3157"
+			(at 130.81 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 129.54 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 129.54 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SPDT Analog Switch, Low-Voltage CMOS"
+			(at 129.54 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e681da78-1333-42d0-9b07-954974723c09")
+		)
+		(pin "5"
+			(uuid "bd5318c8-dd18-49a7-817c-e7de9073bc6c")
+		)
+		(pin "2"
+			(uuid "08eedac0-e97d-43f2-99af-ce339a8755c8")
+		)
+		(pin "6"
+			(uuid "67be49bb-b8da-4315-bcff-846a674435af")
+		)
+		(pin "4"
+			(uuid "842c71e2-db26-44dd-beaa-15191ff754e4")
+		)
+		(pin "1"
+			(uuid "6f6d0e23-778b-4344-8bf5-26638daf1534")
+		)
+		(instances
+			(project "PiLow"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 182.88 123.19 0)
 		(mirror y)
 		(unit 1)
@@ -17152,7 +17341,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC1G3157")
-		(at 111.76 170.18 0)
+		(at 109.22 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17163,7 +17352,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f41eded-96f7-459c-8195-dd3a3b9cdb61")
 		(property "Reference" "U4"
-			(at 110.49 157.48 0)
+			(at 107.95 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17173,7 +17362,7 @@
 			)
 		)
 		(property "Value" "74LVC1G3157"
-			(at 110.49 160.02 0)
+			(at 107.95 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17183,7 +17372,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 111.76 170.18 0)
+			(at 109.22 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17194,7 +17383,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 111.76 170.18 0)
+			(at 109.22 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17205,7 +17394,7 @@
 			)
 		)
 		(property "Description" "SPDT Analog Switch, Low-Voltage CMOS"
-			(at 111.76 170.18 0)
+			(at 109.22 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17450,7 +17639,7 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC1G3157")
-		(at 148.59 171.45 0)
+		(at 160.02 180.34 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17461,7 +17650,7 @@
 		(fields_autoplaced yes)
 		(uuid "86951554-c977-42e0-86bb-a25610129d3d")
 		(property "Reference" "U4"
-			(at 152.4 170.1799 0)
+			(at 163.83 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17472,7 +17661,7 @@
 			)
 		)
 		(property "Value" "74LVC1G3157"
-			(at 152.4 172.7199 0)
+			(at 163.83 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17483,7 +17672,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 148.59 171.45 0)
+			(at 160.02 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17494,7 +17683,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 148.59 171.45 0)
+			(at 160.02 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17505,7 +17694,7 @@
 			)
 		)
 		(property "Description" "SPDT Analog Switch, Low-Voltage CMOS"
-			(at 148.59 171.45 0)
+			(at 160.02 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17544,7 +17733,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 181.61 0)
+		(at 160.02 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17555,7 +17744,7 @@
 		(fields_autoplaced yes)
 		(uuid "88f8c2ec-81a7-4ad8-8e75-776cade87c17")
 		(property "Reference" "#PWR012"
-			(at 148.59 187.96 0)
+			(at 160.02 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17566,7 +17755,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 186.69 0)
+			(at 160.02 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17576,7 +17765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 181.61 0)
+			(at 160.02 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17587,7 +17776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 181.61 0)
+			(at 160.02 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17598,7 +17787,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 181.61 0)
+			(at 160.02 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18844,7 +19033,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 148.59 161.29 0)
+		(at 160.02 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18855,7 +19044,7 @@
 		(fields_autoplaced yes)
 		(uuid "a87a84c4-bbf8-4cf9-a812-53c5e35529fc")
 		(property "Reference" "#PWR0111"
-			(at 148.59 165.1 0)
+			(at 160.02 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18866,7 +19055,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 148.59 156.21 0)
+			(at 160.02 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18876,7 +19065,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 161.29 0)
+			(at 160.02 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18887,7 +19076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 161.29 0)
+			(at 160.02 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18898,7 +19087,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 161.29 0)
+			(at 160.02 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19046,6 +19235,83 @@
 			(project "PiLow"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 140.97 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac37b6d8-e9f0-44ac-93e1-48e1768b9dbd")
+		(property "Reference" "#PWR0112"
+			(at 140.97 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 140.97 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a3d0d503-4995-4905-bb09-07e770bdb266")
+		)
+		(instances
+			(project "PiLow"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -19359,6 +19625,100 @@
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC1G3157")
+		(at 140.97 180.34 180)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8f4c990-b98a-458f-b75f-0de28e3f478c")
+		(property "Reference" "U6"
+			(at 144.78 179.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74LVC1G3157"
+			(at 144.78 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 140.97 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 140.97 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SPDT Analog Switch, Low-Voltage CMOS"
+			(at 140.97 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e681da78-1333-42d0-9b07-954974723c09")
+		)
+		(pin "5"
+			(uuid "bd5318c8-dd18-49a7-817c-e7de9073bc6c")
+		)
+		(pin "2"
+			(uuid "08eedac0-e97d-43f2-99af-ce339a8755c8")
+		)
+		(pin "6"
+			(uuid "67be49bb-b8da-4315-bcff-846a674435af")
+		)
+		(pin "4"
+			(uuid "842c71e2-db26-44dd-beaa-15191ff754e4")
+		)
+		(pin "1"
+			(uuid "6f6d0e23-778b-4344-8bf5-26638daf1534")
+		)
+		(instances
+			(project "PiLow"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U6")
+					(unit 2)
 				)
 			)
 		)
