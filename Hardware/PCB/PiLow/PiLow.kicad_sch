@@ -5,7 +5,9 @@
 	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
 	(paper "A4")
 	(title_block
-		(date "15 nov 2012")
+		(title "PiLow")
+		(date "2026-10-24")
+		(rev "2")
 	)
 	(lib_symbols
 		(symbol "+3.3V_1"
@@ -11881,16 +11883,6 @@
 		)
 		(uuid "1ace3cb1-b36d-4efc-97c7-209bcb524cc7")
 	)
-	(label "MCU_CS"
-		(at 125.73 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "20cfd32f-904f-495b-84bb-7e9cf7ca40be")
-	)
 	(label "M_AP"
 		(at 125.73 139.7 0)
 		(effects
@@ -11910,16 +11902,6 @@
 			(justify left bottom)
 		)
 		(uuid "2a92389c-5822-4f3a-9ceb-cf24dcaea2da")
-	)
-	(label "M_B_CS"
-		(at 125.73 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d8d5618-fdbb-486d-8676-771c6243b8cb")
 	)
 	(label "PWM3"
 		(at 255.27 63.5 0)
@@ -11950,16 +11932,6 @@
 			(justify right bottom)
 		)
 		(uuid "4e577da5-5288-4502-aed9-ec60652d9df4")
-	)
-	(label "MCU_CS"
-		(at 242.57 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55d63225-af72-4b2a-8dde-05bdd7660549")
 	)
 	(label "GPIO[27]"
 		(at 26.67 38.1 0)
@@ -12001,16 +11973,6 @@
 		)
 		(uuid "6b0451d5-5097-444b-9056-1958053d0d2b")
 	)
-	(label "M_B_CS"
-		(at 242.57 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f404327-3f64-4719-a9db-9c8c02e81996")
-	)
 	(label "PWM2"
 		(at 255.27 66.04 0)
 		(effects
@@ -12020,6 +11982,16 @@
 			(justify left bottom)
 		)
 		(uuid "744c6b4d-e545-4409-be83-9c53e78526d8")
+	)
+	(label "M_B_CS"
+		(at 242.57 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "779b9be2-dae7-4fe9-aa0e-2a3297c1eae9")
 	)
 	(label "PWM1"
 		(at 165.862 106.68 0)
@@ -12111,6 +12083,16 @@
 		)
 		(uuid "a46d6ef9-bb48-47fb-afed-157a64315177")
 	)
+	(label "M_B_CS"
+		(at 125.73 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a57e1503-5fe0-4343-aaa3-7c47d418cc1b")
+	)
 	(label "M_A_CS"
 		(at 242.57 50.8 0)
 		(effects
@@ -12201,6 +12183,26 @@
 		)
 		(uuid "c0cdb1b3-7edd-48ff-af04-58c7166ff0c9")
 	)
+	(label "MCU_CS"
+		(at 125.73 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0febdbf-9708-4b16-bb1b-08e6be07616d")
+	)
+	(label "MCU_CS"
+		(at 242.57 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cbb09e32-84c9-402f-8a20-5c09e6697408")
+	)
 	(label "M_BP"
 		(at 160.02 21.59 0)
 		(effects
@@ -12220,6 +12222,16 @@
 			(justify left bottom)
 		)
 		(uuid "d4537196-0c2e-4ad4-8010-faf3a55519c1")
+	)
+	(label "GPIO[9]"
+		(at 26.67 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8a56537-614c-4c1a-9097-e8c3603cc93c")
 	)
 	(label "M_AP"
 		(at 160.02 31.75 0)
@@ -17504,22 +17516,22 @@
 			)
 		)
 		(pin "2"
-			(uuid "89aab3da-e73a-4651-9177-284c0008eafc")
+			(uuid "89aab3da-e73a-4651-9177-284c0008eafd")
 		)
 		(pin "5"
-			(uuid "214ba563-ed74-438e-96a4-c29ff594c5fd")
+			(uuid "214ba563-ed74-438e-96a4-c29ff594c5fe")
 		)
 		(pin "3"
-			(uuid "80f023bf-3b33-4a82-846d-8eb8e65666dc")
+			(uuid "80f023bf-3b33-4a82-846d-8eb8e65666dd")
 		)
 		(pin "4"
-			(uuid "898f5009-15eb-4cf2-8b0a-592e6a315d5f")
+			(uuid "898f5009-15eb-4cf2-8b0a-592e6a315d60")
 		)
 		(pin "1"
-			(uuid "fffb13d9-193f-4a7b-a0f3-cf73f88f4b3f")
+			(uuid "fffb13d9-193f-4a7b-a0f3-cf73f88f4b40")
 		)
 		(pin "6"
-			(uuid "e9a8e3b8-89c9-4c29-baf0-1999732979d3")
+			(uuid "e9a8e3b8-89c9-4c29-baf0-1999732979d4")
 		)
 		(instances
 			(project "PiLow"
