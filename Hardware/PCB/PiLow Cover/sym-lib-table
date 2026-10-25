@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "PiLow") (type "KiCad") (uri "C:/Users/logan/Documents/GitHub/RoboCon-Brain/Hardware/PCB/Libraries/PiLow.kicad_sym") (options "") (descr ""))
+)
