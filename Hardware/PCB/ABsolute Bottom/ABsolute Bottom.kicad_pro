@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -162,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -173,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -184,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -466,6 +485,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -508,162 +528,21 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "name": "3.3V",
-        "pcb_color": "rgb(255, 255, 0)",
-        "priority": 2,
-        "schematic_color": "rgb(255, 255, 0)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "5V",
-        "pcb_color": "rgb(255, 124, 4)",
-        "priority": 1,
-        "schematic_color": "rgb(255, 124, 4)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "GND",
-        "pcb_color": "rgb(0, 0, 255)",
-        "priority": 3,
-        "schematic_color": "rgb(0, 0, 255)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "MOTOR",
-        "pcb_color": "rgb(149, 0, 255)",
-        "priority": 8,
-        "schematic_color": "rgb(149, 0, 255)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "POWER",
-        "pcb_color": "rgb(255, 0, 149)",
-        "priority": 4,
-        "schematic_color": "rgb(255, 0, 149)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "SENSOR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgb(0, 173, 255)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "SIGNALS",
-        "pcb_color": "rgb(0, 197, 197)",
-        "priority": 6,
-        "schematic_color": "rgb(0, 197, 197)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "USB",
-        "pcb_color": "rgb(0, 207, 0)",
-        "priority": 7,
-        "schematic_color": "rgb(0, 207, 0)",
-        "tuning_profile": ""
-      },
-      {
-        "name": "VBAT",
-        "pcb_color": "rgb(255, 0, 0)",
-        "priority": 0,
-        "schematic_color": "rgb(255, 0, 0)",
-        "tuning_profile": ""
       }
     ],
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {},
     "netclass_assignments": {
-      "/M_CS": [
+      "/Controllers/M0_CS": [
+        "${INTERSHEET_REFS}"
+      ],
+      "/Motors/M0_CS": [
         "${INTERSHEET_REFS}"
       ]
     },
-    "netclass_patterns": [
-      {
-        "netclass": "GND",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "VBAT",
-        "pattern": "+VBAT*"
-      },
-      {
-        "netclass": "5V",
-        "pattern": "+5V*"
-      },
-      {
-        "netclass": "3.3V",
-        "pattern": "+3.3V*"
-      },
-      {
-        "netclass": "MOTOR",
-        "pattern": "/M_*"
-      },
-      {
-        "netclass": "MOTOR",
-        "pattern": "/M1_*"
-      },
-      {
-        "netclass": "MOTOR",
-        "pattern": "/M2_*"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "/USB*"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "/5V_*"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "/VBAT_*"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "/SW_POWER"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "/USB(1_OVR|1_PWR|2_OVR|2_PWR)"
-      },
-      {
-        "netclass": "SIGNALS",
-        "pattern": "/*SIGNAL"
-      },
-      {
-        "netclass": "VBAT",
-        "pattern": "/M1_OUT*"
-      },
-      {
-        "netclass": "SIGNALS",
-        "pattern": "/M(1_ENC_A|1_ENC_B|2_ENC_A|2_ENC_B)"
-      },
-      {
-        "netclass": "VBAT",
-        "pattern": "/M2_OUT_(A|B)"
-      },
-      {
-        "netclass": "SIGNALS",
-        "pattern": "/USB_X(IN|OUT)"
-      },
-      {
-        "netclass": "SIGNALS",
-        "pattern": "/SERVO(1|2|3|4)"
-      },
-      {
-        "netclass": "SIGNALS",
-        "pattern": "/GPIO(1|2|3|4|5|6)"
-      },
-      {
-        "netclass": "SENSOR",
-        "pattern": "/IMU_(CS|INT|MISO|MOSI|SCK)"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -671,6 +550,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -821,8 +701,8 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -853,6 +733,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -861,44 +749,53 @@
     "top_level_sheets": [
       {
         "filename": "ABsolute Bottom.kicad_sch",
-        "name": "Pi, Microcontroller, and IMU",
+        "name": "Controllers",
         "uuid": "324f0d25-1b38-4559-b0f5-f02adf9481a7"
       },
       {
-        "filename": "power_management.kicad_sch",
-        "name": "Power Management",
-        "uuid": "86157aa7-0179-496e-992f-2820ab2e9190"
-      },
-      {
         "filename": "usb.kicad_sch",
-        "name": "USB Hub",
-        "uuid": "36e5e0d1-44c8-4304-b6c8-3355ef55ad1e"
+        "name": "USB",
+        "uuid": "7653bfc0-2165-4f3b-96a0-13c9962f4d48"
       },
       {
-        "filename": "motor_controllers.kicad_sch",
-        "name": "Motor Controllers and Connectors",
-        "uuid": "0c577dc9-e915-4306-8e3c-62227d91ddb1"
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "bb9d94db-a1bd-4b94-9444-1b5c944444b6"
+      },
+      {
+        "filename": "motors.kicad_sch",
+        "name": "Motors",
+        "uuid": "2c303b8d-1fc8-405e-a98d-f37f57f8134c"
+      },
+      {
+        "filename": "io.kicad_sch",
+        "name": "IO",
+        "uuid": "c399ee24-3ff2-4cc9-b0e8-39a29b5d977e"
       }
     ],
-    "used_designators": "R1-23,J1-12,L1-2,#PWR1-92,U1-14,C1-50,Y1,Q1-2",
+    "used_designators": "#FLG1-13,#PWR1-145,C1-77,J1-24,L1-4,Q1-4,R1-44,U1-20,Y1-2",
     "variants": []
   },
   "sheets": [
     [
       "324f0d25-1b38-4559-b0f5-f02adf9481a7",
-      "Pi, Microcontroller, and IMU"
+      "Controllers"
     ],
     [
-      "86157aa7-0179-496e-992f-2820ab2e9190",
-      "Power Management"
+      "7653bfc0-2165-4f3b-96a0-13c9962f4d48",
+      "USB"
     ],
     [
-      "36e5e0d1-44c8-4304-b6c8-3355ef55ad1e",
-      "USB Hub"
+      "bb9d94db-a1bd-4b94-9444-1b5c944444b6",
+      "Power"
     ],
     [
-      "0c577dc9-e915-4306-8e3c-62227d91ddb1",
-      "Motor Controllers and Connectors"
+      "2c303b8d-1fc8-405e-a98d-f37f57f8134c",
+      "Motors"
+    ],
+    [
+      "c399ee24-3ff2-4cc9-b0e8-39a29b5d977e",
+      "IO"
     ]
   ],
   "text_variables": {},
