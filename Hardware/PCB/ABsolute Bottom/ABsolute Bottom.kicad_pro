@@ -534,14 +534,7 @@
       "version": 5
     },
     "net_colors": {},
-    "netclass_assignments": {
-      "/Controllers/M0_CS": [
-        "${INTERSHEET_REFS}"
-      ],
-      "/Motors/M0_CS": [
-        "${INTERSHEET_REFS}"
-      ]
-    },
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -695,10 +688,16 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": false,
@@ -773,7 +772,7 @@
         "uuid": "c399ee24-3ff2-4cc9-b0e8-39a29b5d977e"
       }
     ],
-    "used_designators": "#FLG1-13,#PWR1-145,C1-77,J1-24,L1-4,Q1-4,R1-44,U1-20,Y1-2",
+    "used_designators": "#FLG1-13,#PWR1-145,C1-77,J1-24,L1-4,Q1-4,R1-52,U1-20,Y1-2",
     "variants": []
   },
   "sheets": [
