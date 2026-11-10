@@ -1,9 +1,38 @@
-# KiCad
-**/.history/
-**/*-backups/
-**/*.lck
+# KiCad temporary files and clutter
 
-# Backup files
+# Backups
 **/*.bak
+**/*.bck
+**/*.old
+**/*.orig
+**/*.backup
 **/*~
+
+# KiCad local settings
+**/*.kicad_prl
+**/*.kicad_sch_prl
+
+# Autosaves and recovery
+**/*.autosave
+**/*.lck
+**/*.lock
 **/*.tmp
+**/*.temp
+**/*.swp
+**/*.swo
+
+# Automatic backup directories
+**/*-backups/
+**/backups/
+
+# Cache and recovery files
+**/fp-info-cache
+**/*-rescue
+**/*.kicad_wks-rescue
+
+# Temporary simulation files
+**/*.raw
+**/*.fft
+
+# Temporary logs
+**/*.log

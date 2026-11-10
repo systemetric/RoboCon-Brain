@@ -66339,8 +66339,8 @@
 		)
 		(symbol "BMI323_0_1"
 			(rectangle
-				(start -10.16 7.62)
-				(end 10.16 -7.62)
+				(start -8.89 6.35)
+				(end 8.89 -3.81)
 				(stroke
 					(width 0)
 					(type default)
@@ -66349,26 +66349,8 @@
 					(type none)
 				)
 			)
-			(pin passive line
-				(at 13.97 2.54 180)
-				(length 3.81)
-				(name "SDO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin no_connect line
-				(at -21.59 -39.37 0)
+				(at -21.59 -38.1 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -66387,7 +66369,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -21.59 -41.91 0)
+				(at -21.59 -40.64 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -66405,26 +66387,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 13.97 -5.08 180)
-				(length 3.81)
-				(name "INT1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -13.97 -5.08 0)
+				(at -12.7 -1.27 0)
 				(length 3.81)
 				(hide yes)
 				(name "GND"
@@ -66443,7 +66407,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 5.08 0)
+				(at -12.7 3.81 0)
 				(length 3.81)
 				(name "VDD"
 					(effects
@@ -66461,7 +66425,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -21.59 -36.83 0)
+				(at -21.59 -35.56 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -66480,7 +66444,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -21.59 -34.29 0)
+				(at -21.59 -33.02 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -66498,64 +66462,47 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 13.97 -2.54 180)
-				(length 3.81)
-				(name "CSB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 0 180)
-				(length 3.81)
-				(name "SCX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 13.97 5.08 180)
-				(length 3.81)
-				(name "SDX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(symbol "BMI323_1_1"
+			(pin no_connect line
+				(at -21.59 -27.94 0)
+				(length 3.81)
+				(hide yes)
+				(name "SDO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 12.7 -1.27 180)
+				(length 3.81)
+				(name "INT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at -13.97 5.08 0)
+				(at -12.7 3.81 0)
 				(length 3.81)
 				(hide yes)
 				(name "VDD"
@@ -66574,7 +66521,7 @@
 				)
 			)
 			(pin power_in line
-				(at -13.97 -5.08 0)
+				(at -12.7 -1.27 0)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -66592,7 +66539,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -21.59 -31.75 0)
+				(at -21.59 -30.48 0)
 				(length 3.81)
 				(hide yes)
 				(name "INT2"
@@ -66603,6 +66550,61 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -21.59 -25.4 0)
+				(length 3.81)
+				(hide yes)
+				(name "CSB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 12.7 1.27 180)
+				(length 3.81)
+				(name "SCX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 3.81 180)
+				(length 3.81)
+				(name "SDX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -66621,7 +66623,7 @@
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U?"
 			(at 0 0 0)
-			(show_name yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -66632,7 +66634,7 @@
 		)
 		(property "Value" "BTM9021EP"
 			(at 0 -35.56 0)
-			(show_name yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -66642,7 +66644,7 @@
 			)
 		)
 		(property "Footprint" "ABsolute:SOP65P600X115-15N-V"
-			(at 0 0 0)
+			(at -51.054 10.16 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -66652,7 +66654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -42.164 -12.954 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -66662,7 +66664,7 @@
 			)
 		)
 		(property "Description" "MOTIX Full-Bridge ICs for BDC Motors"
-			(at 0 0 0)
+			(at -28.194 -20.574 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -66673,8 +66675,8 @@
 		)
 		(symbol "BTM9021EP_1_0"
 			(rectangle
-				(start 20.32 0)
-				(end 0 -33.02)
+				(start 10.16 16.51)
+				(end -10.16 -16.51)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -66685,7 +66687,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -2.54 180)
+				(at 15.24 13.97 180)
 				(length 5.08)
 				(name "OUTA1"
 					(effects
@@ -66702,8 +66704,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -25.4 0)
+			(pin input line
+				(at -15.24 -8.89 0)
 				(length 5.08)
 				(name "SDI"
 					(effects
@@ -66721,7 +66723,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -20.32 180)
+				(at 15.24 -3.81 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -66739,7 +66741,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -22.86 180)
+				(at 15.24 -6.35 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -66757,7 +66759,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -25.4 180)
+				(at 15.24 -8.89 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -66774,8 +66776,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -15.24 0)
+			(pin input line
+				(at -15.24 1.27 0)
 				(length 5.08)
 				(name "SCLK"
 					(effects
@@ -66793,7 +66795,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -10.16 180)
+				(at 15.24 6.35 180)
 				(length 5.08)
 				(name "OUTB1"
 					(effects
@@ -66811,7 +66813,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -12.7 180)
+				(at 15.24 3.81 180)
 				(length 5.08)
 				(name "OUTB2"
 					(effects
@@ -66828,8 +66830,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -30.48 0)
+			(pin open_collector line
+				(at -15.24 -13.97 0)
 				(length 5.08)
 				(name "SDO"
 					(effects
@@ -66846,8 +66848,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -10.16 0)
+			(pin input line
+				(at -15.24 6.35 0)
 				(length 5.08)
 				(name "CS"
 					(effects
@@ -66865,7 +66867,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -2.54 0)
+				(at -15.24 13.97 0)
 				(length 5.08)
 				(name "VS"
 					(effects
@@ -66883,7 +66885,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -5.08 0)
+				(at -15.24 11.43 0)
 				(length 5.08)
 				(name "VS"
 					(effects
@@ -66900,8 +66902,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -5.08 -20.32 0)
+			(pin output line
+				(at -15.24 -3.81 0)
 				(length 5.08)
 				(name "IS"
 					(effects
@@ -66919,7 +66921,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -5.08 180)
+				(at 15.24 11.43 180)
 				(length 5.08)
 				(name "OUTA2"
 					(effects
@@ -66936,8 +66938,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 25.4 -30.48 180)
+			(pin passive line
+				(at 15.24 -13.97 180)
 				(length 5.08)
 				(name "EDP"
 					(effects
@@ -66965,7 +66967,7 @@
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "IC"
 			(at 31.75 7.62 0)
-			(show_name yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -66976,7 +66978,7 @@
 		)
 		(property "Value" "BTS70021EPPXUMA1"
 			(at 31.75 5.08 0)
-			(show_name yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -67013,6 +67015,7 @@
 			(at 0 0 0)
 			(show_name yes)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67105,8 +67108,8 @@
 		)
 		(symbol "BTS70021EPPXUMA1_1_1"
 			(rectangle
-				(start 5.08 2.54)
-				(end 30.48 -22.86)
+				(start -12.7 7.62)
+				(end 12.7 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -67115,8 +67118,8 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at 0 0 0)
+			(pin power_in line
+				(at -17.78 -7.62 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -67133,8 +67136,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -2.54 0)
+			(pin input line
+				(at -17.78 2.54 0)
 				(length 5.08)
 				(name "IN"
 					(effects
@@ -67151,8 +67154,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -5.08 0)
+			(pin input line
+				(at -17.78 0 0)
 				(length 5.08)
 				(name "DEN"
 					(effects
@@ -67169,8 +67172,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -7.62 0)
+			(pin output line
+				(at -17.78 -2.54 0)
 				(length 5.08)
 				(name "IS"
 					(effects
@@ -67187,9 +67190,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -10.16 0)
+			(pin no_connect line
+				(at 25.4 -15.24 0)
 				(length 5.08)
+				(hide yes)
 				(name "N.C._1"
 					(effects
 						(font
@@ -67205,9 +67209,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -12.7 0)
+			(pin no_connect line
+				(at 25.4 -15.24 0)
 				(length 5.08)
+				(hide yes)
 				(name "N.C._2"
 					(effects
 						(font
@@ -67223,9 +67228,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -15.24 0)
+			(pin no_connect line
+				(at 25.4 -15.24 0)
 				(length 5.08)
+				(hide yes)
 				(name "N.C._3"
 					(effects
 						(font
@@ -67241,8 +67247,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 35.56 -15.24 180)
+			(pin power_out line
+				(at 17.78 5.08 180)
 				(length 5.08)
 				(name "OUT_1"
 					(effects
@@ -67260,7 +67266,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -12.7 180)
+				(at 17.78 2.54 180)
 				(length 5.08)
 				(name "OUT_2"
 					(effects
@@ -67278,7 +67284,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -10.16 180)
+				(at 17.78 0 180)
 				(length 5.08)
 				(name "OUT_3"
 					(effects
@@ -67295,9 +67301,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 35.56 -7.62 180)
+			(pin no_connect line
+				(at 25.4 -15.24 0)
 				(length 5.08)
+				(hide yes)
 				(name "N.C._4"
 					(effects
 						(font
@@ -67314,7 +67321,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -5.08 180)
+				(at 17.78 -2.54 180)
 				(length 5.08)
 				(name "OUT_4"
 					(effects
@@ -67332,7 +67339,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -2.54 180)
+				(at 17.78 -5.08 180)
 				(length 5.08)
 				(name "OUT_5"
 					(effects
@@ -67350,7 +67357,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 0 180)
+				(at 17.78 -7.62 180)
 				(length 5.08)
 				(name "OUT_6"
 					(effects
@@ -67367,8 +67374,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 -27.94 90)
+			(pin power_in line
+				(at -17.78 5.08 0)
 				(length 5.08)
 				(name "VS"
 					(effects
@@ -68504,8 +68511,8 @@
 		)
 		(symbol "CY7C65634_0_1"
 			(rectangle
-				(start -13.97 8.89)
-				(end 13.97 -21.59)
+				(start -13.97 15.24)
+				(end 13.97 -15.24)
 				(stroke
 					(width 0)
 					(type default)
@@ -68517,7 +68524,7 @@
 		)
 		(symbol "CY7C65634_1_1"
 			(pin power_in line
-				(at 5.08 12.7 270)
+				(at 5.08 19.05 270)
 				(length 3.81)
 				(name "VCC"
 					(effects
@@ -68535,7 +68542,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -25.4 90)
+				(at 0 -19.05 90)
 				(length 3.81)
 				(name "GND"
 					(effects
@@ -68552,8 +68559,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 6.35 180)
+			(pin bidirectional line
+				(at 17.78 12.7 180)
 				(length 3.81)
 				(name "D-[0]"
 					(effects
@@ -68570,8 +68577,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 3.81 180)
+			(pin bidirectional line
+				(at 17.78 10.16 180)
 				(length 3.81)
 				(name "D+[0]"
 					(effects
@@ -68588,8 +68595,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 -1.27 180)
+			(pin bidirectional line
+				(at 17.78 5.08 180)
 				(length 3.81)
 				(name "D-[1]"
 					(effects
@@ -68606,8 +68613,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 -3.81 180)
+			(pin bidirectional line
+				(at 17.78 2.54 180)
 				(length 3.81)
 				(name "D+[1]"
 					(effects
@@ -68625,7 +68632,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 12.7 270)
+				(at 5.08 19.05 270)
 				(length 3.81)
 				(hide yes)
 				(name "VCC_A"
@@ -68644,7 +68651,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -25.4 90)
+				(at 0 -19.05 90)
 				(length 3.81)
 				(hide yes)
 				(name "GND"
@@ -68662,8 +68669,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 -8.89 180)
+			(pin bidirectional line
+				(at 17.78 -2.54 180)
 				(length 3.81)
 				(name "D-[2]"
 					(effects
@@ -68680,8 +68687,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 -11.43 180)
+			(pin bidirectional line
+				(at 17.78 -5.08 180)
 				(length 3.81)
 				(name "D+[2]"
 					(effects
@@ -68699,7 +68706,7 @@
 				)
 			)
 			(pin passive line
-				(at -17.78 -19.05 0)
+				(at -17.78 -12.7 0)
 				(length 3.81)
 				(name "RREF"
 					(effects
@@ -68717,7 +68724,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 12.7 270)
+				(at 5.08 19.05 270)
 				(length 3.81)
 				(hide yes)
 				(name "VCC_A"
@@ -68736,7 +68743,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -25.4 90)
+				(at 0 -19.05 90)
 				(length 3.81)
 				(hide yes)
 				(name "GND"
@@ -68755,7 +68762,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 6.35 0)
+				(at -17.78 12.7 0)
 				(length 3.81)
 				(name "XIN"
 					(effects
@@ -68773,7 +68780,7 @@
 				)
 			)
 			(pin output line
-				(at -17.78 3.81 0)
+				(at -17.78 10.16 0)
 				(length 3.81)
 				(name "XOUT"
 					(effects
@@ -68791,7 +68798,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 12.7 270)
+				(at 5.08 19.05 270)
 				(length 3.81)
 				(hide yes)
 				(name "VCC_A"
@@ -68810,7 +68817,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -68829,7 +68836,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -68848,7 +68855,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -68867,7 +68874,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -25.4 90)
+				(at 0 -19.05 90)
 				(length 3.81)
 				(hide yes)
 				(name "GND"
@@ -68886,7 +68893,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -68905,7 +68912,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -68924,7 +68931,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -68943,7 +68950,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -68962,7 +68969,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -3.81 0)
+				(at -17.78 2.54 0)
 				(length 3.81)
 				(name "SEL48"
 					(effects
@@ -68980,7 +68987,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -40.64 0)
+				(at -29.21 -34.29 0)
 				(length 3.81)
 				(hide yes)
 				(name "RESET"
@@ -68999,7 +69006,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -55.88 0)
+				(at -29.21 -49.53 0)
 				(length 3.81)
 				(hide yes)
 				(name "TEST"
@@ -69018,7 +69025,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -69037,7 +69044,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -69056,7 +69063,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -69075,7 +69082,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -69094,7 +69101,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -69113,7 +69120,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -38.1 0)
+				(at -29.21 -31.75 0)
 				(length 3.81)
 				(hide yes)
 				(name "NC"
@@ -69132,7 +69139,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 12.7 270)
+				(at 5.08 19.05 270)
 				(length 3.81)
 				(hide yes)
 				(name "VCC_D"
@@ -69151,7 +69158,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -53.34 0)
+				(at -29.21 -46.99 0)
 				(length 3.81)
 				(hide yes)
 				(name "FIXED_PORT2"
@@ -69170,7 +69177,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -8.89 0)
+				(at -17.78 -2.54 0)
 				(length 3.81)
 				(name "PWR_PIN_POL"
 					(effects
@@ -69188,7 +69195,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -6.35 0)
+				(at -17.78 0 0)
 				(length 3.81)
 				(name "SELFPWR"
 					(effects
@@ -69206,7 +69213,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 12.7 270)
+				(at 5.08 19.05 270)
 				(length 3.81)
 				(hide yes)
 				(name "VCC_D"
@@ -69224,8 +69231,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at -17.78 -11.43 0)
+			(pin input line
+				(at -17.78 -5.08 0)
 				(length 3.81)
 				(name "GANG"
 					(effects
@@ -69243,7 +69250,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -45.72 0)
+				(at -29.21 -39.37 0)
 				(length 3.81)
 				(hide yes)
 				(name "OVR[2]"
@@ -69262,7 +69269,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -48.26 0)
+				(at -29.21 -41.91 0)
 				(length 3.81)
 				(hide yes)
 				(name "PWR[2]"
@@ -69281,7 +69288,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 -16.51 180)
+				(at 17.78 -10.16 180)
 				(length 3.81)
 				(name "OVR"
 					(effects
@@ -69298,8 +69305,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 17.78 -19.05 180)
+			(pin output line
+				(at 17.78 -12.7 180)
 				(length 3.81)
 				(name "PWR"
 					(effects
@@ -69317,7 +69324,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -1.27 0)
+				(at -17.78 5.08 0)
 				(length 3.81)
 				(name "SEL27"
 					(effects
@@ -69335,7 +69342,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -50.8 0)
+				(at -29.21 -44.45 0)
 				(length 3.81)
 				(hide yes)
 				(name "FIXED_PORT1"
@@ -69354,7 +69361,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -29.21 -43.18 0)
+				(at -29.21 -36.83 0)
 				(length 3.81)
 				(hide yes)
 				(name "AMBER[1]/SPI_CS"
@@ -69373,7 +69380,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 12.7 270)
+				(at -5.08 19.05 270)
 				(length 3.81)
 				(name "VREG_IN"
 					(effects
@@ -69390,8 +69397,8 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 2.54 12.7 270)
+			(pin power_out line
+				(at 2.54 19.05 270)
 				(length 3.81)
 				(name "VREG_OUT"
 					(effects
@@ -72505,8 +72512,8 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 2.54 0)
-			(show_name yes)
+			(at 13.97 10.668 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -72515,8 +72522,8 @@
 			)
 		)
 		(property "Value" "TPS56A37RPAR"
-			(at 0 0 0)
-			(show_name yes)
+			(at 16.764 8.382 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -72525,7 +72532,7 @@
 			)
 		)
 		(property "Footprint" "ABsolute:RPA0010A-MFG"
-			(at 0 0 0)
+			(at -28.702 9.652 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -72535,7 +72542,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps56a37"
-			(at 0 0 0)
+			(at -9.652 13.462 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -72545,7 +72552,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 21.336 14.732 0)
 			(show_name yes)
 			(do_not_autoplace no)
 			(effects
@@ -72653,24 +72660,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 35.56 0 180)
-				(length 5.08)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 0 0)
 				(length 5.08)
@@ -72709,7 +72698,7 @@
 			)
 		)
 		(symbol "TPS56A37RPAR_1_1"
-			(pin passive line
+			(pin input line
 				(at 0 -10.16 0)
 				(length 5.08)
 				(name "EN"
@@ -72727,7 +72716,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 35.56 -17.78 180)
 				(length 5.08)
 				(name "FB"
@@ -72745,7 +72734,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin open_collector line
 				(at 35.56 -12.7 180)
 				(length 5.08)
 				(name "PG"
@@ -72763,7 +72752,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 0 -15.24 0)
 				(length 5.08)
 				(name "SS"
@@ -72781,7 +72770,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 35.56 -7.62 180)
 				(length 5.08)
 				(name "SW"
@@ -72792,6 +72781,24 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 35.56 0 180)
+				(length 5.08)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)

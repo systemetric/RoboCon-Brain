@@ -694,6 +694,18 @@
           "label": "MPN",
           "name": "MPN",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -770,6 +782,11 @@
         "filename": "io.kicad_sch",
         "name": "IO",
         "uuid": "c399ee24-3ff2-4cc9-b0e8-39a29b5d977e"
+      },
+      {
+        "filename": "absolute_bottom.kicad_sch",
+        "name": "ABsolute Bottom",
+        "uuid": "ed442ea0-660d-4c84-ba76-77bb7a83feec"
       }
     ],
     "used_designators": "#FLG1-13,#PWR1-145,C1-77,J1-24,L1-4,Q1-4,R1-52,U1-20,Y1-2",
@@ -777,8 +794,8 @@
   },
   "sheets": [
     [
-      "324f0d25-1b38-4559-b0f5-f02adf9481a7",
-      "Controllers"
+      "ed442ea0-660d-4c84-ba76-77bb7a83feec",
+      "ABsolute Bottom"
     ],
     [
       "7653bfc0-2165-4f3b-96a0-13c9962f4d48",
@@ -795,6 +812,10 @@
     [
       "c399ee24-3ff2-4cc9-b0e8-39a29b5d977e",
       "IO"
+    ],
+    [
+      "324f0d25-1b38-4559-b0f5-f02adf9481a7",
+      "Controllers"
     ]
   ],
   "text_variables": {},

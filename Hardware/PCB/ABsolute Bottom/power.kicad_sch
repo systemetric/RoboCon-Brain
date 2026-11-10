@@ -18,28 +18,30 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U10"
-				(at 17.78 7.62 0)
+			(property "Reference" "IC"
+				(at 31.75 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "BTS70021EPPXUMA1"
-				(at 17.78 5.08 0)
+				(at 31.75 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Package_SO:Infineon_PG-TSDSO-14-22"
-				(at 17.78 27.94 0)
+			(property "Footprint" "ABsolute:SOP65P600X115-15N"
+				(at 31.75 -94.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -47,10 +49,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/17c904b4a086355fda7a094a57b340b7.pdf"
-				(at 17.78 25.4 0)
+				(at 31.75 -194.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -58,10 +61,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Description" "INFINEON - BTS70021EPPXUMA1 - Power Load Distribution Switch AEC-Q100, High Side, Active High, 13.5V, 133A, 2.6mohm, TSDSO-14"
-				(at 17.78 22.86 0)
+				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -72,7 +76,7 @@
 				)
 			)
 			(property "Height" "1.15"
-				(at 17.78 20.32 0)
+				(at 31.75 -394.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -80,10 +84,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Manufacturer_Name" "Infineon"
-				(at 17.78 17.78 0)
+				(at 31.75 -494.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -91,10 +96,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Manufacturer_Part_Number" "BTS70021EPPXUMA1"
-				(at 17.78 15.24 0)
+				(at 31.75 -594.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -102,10 +108,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Mouser Part Number" "726-BTS70021EPPXUMA1"
-				(at 17.78 12.7 0)
+				(at 31.75 -694.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -113,10 +120,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BTS70021EPPXUMA1?qs=qSfuJ%252Bfl%2Fd4cKoHb1mP5aw%3D%3D"
-				(at 17.78 10.16 0)
+				(at 31.75 -794.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -124,10 +132,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Arrow Part Number" "BTS70021EPPXUMA1"
-				(at 17.78 7.62 0)
+				(at 31.75 -894.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -135,10 +144,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bts70021eppxuma1/infineon-technologies-ag.html?utm_currency=USD&region=asia"
-				(at 17.78 5.08 0)
+				(at 31.75 -994.92 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -146,12 +156,13 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(symbol "BTS70021EPPXUMA1_1_1"
 				(rectangle
-					(start 5.08 2.54)
-					(end 30.48 -15.24)
+					(start -12.7 7.62)
+					(end 12.7 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -160,8 +171,8 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at 0 -12.7 0)
+				(pin power_in line
+					(at -17.78 -7.62 0)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -178,8 +189,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
+				(pin input line
+					(at -17.78 2.54 0)
 					(length 5.08)
 					(name "IN"
 						(effects
@@ -196,8 +207,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
+				(pin input line
+					(at -17.78 0 0)
 					(length 5.08)
 					(name "DEN"
 						(effects
@@ -214,8 +225,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 0)
+				(pin output line
+					(at -17.78 -2.54 0)
 					(length 5.08)
 					(name "IS"
 						(effects
@@ -233,7 +244,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 43.18 -20.32 0)
+					(at 25.4 -15.24 0)
 					(length 5.08)
 					(hide yes)
 					(name "N.C._1"
@@ -252,7 +263,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 43.18 -20.32 0)
+					(at 25.4 -15.24 0)
 					(length 5.08)
 					(hide yes)
 					(name "N.C._2"
@@ -271,7 +282,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 43.18 -20.32 0)
+					(at 25.4 -15.24 0)
 					(length 5.08)
 					(hide yes)
 					(name "N.C._3"
@@ -289,8 +300,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 35.56 0 180)
+				(pin power_out line
+					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "OUT_1"
 						(effects
@@ -308,7 +319,7 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -2.54 180)
+					(at 17.78 2.54 180)
 					(length 5.08)
 					(name "OUT_2"
 						(effects
@@ -326,7 +337,7 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -5.08 180)
+					(at 17.78 0 180)
 					(length 5.08)
 					(name "OUT_3"
 						(effects
@@ -344,7 +355,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 43.18 -20.32 0)
+					(at 25.4 -15.24 0)
 					(length 5.08)
 					(hide yes)
 					(name "N.C._4"
@@ -363,7 +374,7 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -7.62 180)
+					(at 17.78 -2.54 180)
 					(length 5.08)
 					(name "OUT_4"
 						(effects
@@ -381,7 +392,7 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -10.16 180)
+					(at 17.78 -5.08 180)
 					(length 5.08)
 					(name "OUT_5"
 						(effects
@@ -399,7 +410,7 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -12.7 180)
+					(at 17.78 -7.62 180)
 					(length 5.08)
 					(name "OUT_6"
 						(effects
@@ -416,8 +427,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
+				(pin power_in line
+					(at -17.78 5.08 0)
 					(length 5.08)
 					(name "VS"
 						(effects
@@ -447,8 +458,8 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 2.54 0)
-				(show_name yes)
+				(at 13.97 10.668 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
@@ -457,8 +468,8 @@
 				)
 			)
 			(property "Value" "TPS56A37RPAR"
-				(at 0 0 0)
-				(show_name yes)
+				(at 16.764 8.382 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
@@ -467,7 +478,7 @@
 				)
 			)
 			(property "Footprint" "ABsolute:RPA0010A-MFG"
-				(at 0 0 0)
+				(at -28.702 9.652 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(effects
@@ -477,7 +488,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/gpn/tps56a37"
-				(at 0 0 0)
+				(at -9.652 13.462 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(effects
@@ -487,7 +498,7 @@
 				)
 			)
 			(property "Description" ""
-				(at 0 0 0)
+				(at 21.336 14.732 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(effects
@@ -595,24 +606,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 35.56 0 180)
-					(length 5.08)
-					(name "BOOT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 0 0)
 					(length 5.08)
@@ -651,7 +644,7 @@
 				)
 			)
 			(symbol "TPS56A37RPAR_1_1"
-				(pin passive line
+				(pin input line
 					(at 0 -10.16 0)
 					(length 5.08)
 					(name "EN"
@@ -669,7 +662,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 35.56 -17.78 180)
 					(length 5.08)
 					(name "FB"
@@ -687,7 +680,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin open_collector line
 					(at 35.56 -12.7 180)
 					(length 5.08)
 					(name "PG"
@@ -705,7 +698,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin input line
 					(at 0 -15.24 0)
 					(length 5.08)
 					(name "SS"
@@ -723,7 +716,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 35.56 -7.62 180)
 					(length 5.08)
 					(name "SW"
@@ -734,6 +727,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2670,6 +2681,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "PI 5V load switch"
 		(exclude_from_sim no)
@@ -2770,6 +2896,12 @@
 		(uuid "1606e23b-0148-4172-8e38-17d0aee4c22d")
 	)
 	(junction
+		(at 184.15 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1688e8c9-0297-4af0-8fe0-8be1e2785daa")
+	)
+	(junction
 		(at 101.6 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2794,12 +2926,6 @@
 		(uuid "2558eb8b-358a-46bd-8d13-be2da7a92fd1")
 	)
 	(junction
-		(at 184.15 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25a8926f-c000-4b05-95ba-dc4a32706cb4")
-	)
-	(junction
 		(at 121.92 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2818,10 +2944,10 @@
 		(uuid "2b2cfa0d-0af2-4bca-afcb-e1b48488ba6b")
 	)
 	(junction
-		(at 184.15 73.66)
+		(at 27.94 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30044fb7-4ad9-44a3-8679-8dd5f75f915c")
+		(uuid "2e79521e-596e-4e0d-b12d-971d8df5337a")
 	)
 	(junction
 		(at 224.79 53.34)
@@ -2848,6 +2974,12 @@
 		(uuid "473010e9-f395-426b-bcb2-5104d2d20cd6")
 	)
 	(junction
+		(at 262.89 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d5e8cd7-d876-49cb-b5cc-4334558b647e")
+	)
+	(junction
 		(at 27.94 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2872,10 +3004,22 @@
 		(uuid "5a1592d9-8f0d-40a6-bbd8-c80d0a3e5865")
 	)
 	(junction
+		(at 184.15 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b1e98c4-ac9d-4557-a15a-42aa0b0cc289")
+	)
+	(junction
 		(at 27.94 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ba59de0-ab22-46fd-acfe-1c3ca0cf8b5c")
+	)
+	(junction
+		(at 184.15 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e61fa1e-3be5-4ff8-8a02-4e55980ca99e")
 	)
 	(junction
 		(at 140.97 91.44)
@@ -2888,6 +3032,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a806f2a-09fa-4dce-9c13-bb69f28912b1")
+	)
+	(junction
+		(at 132.08 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b2b2ae6-1930-4f5d-a699-557398b3598b")
+	)
+	(junction
+		(at 184.15 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bbe3d1c-c6f3-4b05-8a89-79408a6f81c5")
+	)
+	(junction
+		(at 48.26 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e455124-306e-4080-811d-a05cfa053e0a")
 	)
 	(junction
 		(at 262.89 33.02)
@@ -2974,10 +3136,10 @@
 		(uuid "ccc8b9ed-4037-4e1f-bfa1-99d0c8e11f48")
 	)
 	(junction
-		(at 184.15 81.28)
+		(at 27.94 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4f76c33-f89b-476a-882a-6c2858e3edb5")
+		(uuid "ccd16150-50c2-4f96-bfad-689d3bec3d25")
 	)
 	(junction
 		(at 157.48 33.02)
@@ -2990,12 +3152,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1e9f59f-feca-4f06-af1e-7548d08fd1b9")
-	)
-	(junction
-		(at 184.15 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3a07cce-8f0b-4478-9170-d075eeede79f")
 	)
 	(junction
 		(at 93.98 53.34)
@@ -3021,9 +3177,23 @@
 		(color 0 0 0 0)
 		(uuid "f80b7165-3317-42f9-bdb1-44c5f3770fba")
 	)
+	(junction
+		(at 184.15 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbfdafc9-c0ce-46c9-bdc5-7627d69c681e")
+	)
 	(no_connect
 		(at 100.33 116.84)
 		(uuid "4cb34110-41ac-42aa-9b54-f12b340902d6")
+	)
+	(no_connect
+		(at 93.98 38.1)
+		(uuid "4fee3fcb-b17e-4607-87aa-86c931d7815d")
+	)
+	(no_connect
+		(at 224.79 38.1)
+		(uuid "6e736bf3-2805-47ce-bf3a-30fe36b274f4")
 	)
 	(polyline
 		(pts
@@ -3217,6 +3387,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 78.74) (xy 184.15 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e2ff441-02c8-4dc8-8edb-b4838a979a28")
+	)
+	(wire
+		(pts
 			(xy 120.65 73.66) (xy 148.59 73.66)
 		)
 		(stroke
@@ -3277,7 +3457,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 71.12) (xy 184.15 83.82)
+			(xy 184.15 71.12) (xy 184.15 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3294,6 +3474,16 @@
 			(type default)
 		)
 		(uuid "477d2d1b-f38e-4aeb-b5a4-4b4767babbdf")
+	)
+	(wire
+		(pts
+			(xy 120.65 71.12) (xy 148.59 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488e6e98-7d45-4ba6-a820-0df8019f5486")
 	)
 	(wire
 		(pts
@@ -3324,6 +3514,16 @@
 			(type default)
 		)
 		(uuid "4d90f9af-ed75-4bc9-b180-45f07abb8080")
+	)
+	(wire
+		(pts
+			(xy 184.15 73.66) (xy 184.15 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f39d45e-6038-4356-a36f-3f427103ecdb")
 	)
 	(wire
 		(pts
@@ -3607,6 +3807,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 76.2) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a692df8e-dc39-4ff3-9986-0c76710e3eee")
+	)
+	(wire
+		(pts
 			(xy 27.94 96.52) (xy 30.48 96.52)
 		)
 		(stroke
@@ -3624,6 +3834,16 @@
 			(type default)
 		)
 		(uuid "ae7e9818-6d9c-4a18-a75c-5052a4b59292")
+	)
+	(wire
+		(pts
+			(xy 252.73 25.4) (xy 262.89 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a15a89-b013-4ac6-993c-0f51f117ac89")
 	)
 	(wire
 		(pts
@@ -3654,6 +3874,16 @@
 			(type default)
 		)
 		(uuid "baac245d-d8e8-4cd2-bc93-f6a4d632881f")
+	)
+	(wire
+		(pts
+			(xy 184.15 81.28) (xy 184.15 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc0d62ec-c80f-4fc9-ad68-93cbf22f4cb8")
 	)
 	(wire
 		(pts
@@ -3787,16 +4017,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 25.4) (xy 262.89 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8eeb9e0-3689-420e-b741-1934493032a5")
-	)
-	(wire
-		(pts
 			(xy 241.3 25.4) (xy 242.57 25.4)
 		)
 		(stroke
@@ -3855,15 +4075,748 @@
 		)
 		(uuid "fba07b28-6043-46cc-bde0-3189ed92d6bf")
 	)
-	(wire
-		(pts
-			(xy 120.65 71.12) (xy 148.59 71.12)
+	(image
+		(at 258.826 123.698)
+		(uuid "6ef84a3b-5e55-4cd5-a6f4-c306801a8449")
+		(data "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"
+			"cJHDc63SWL7TM3x4nsuZRaxRuFdvgi6i+tO4sGmj4lpOVTum15KNkq2c3u6etNrr/k7r7T6S+uSJ"
+			"0gTBQF5NNa/JqeZVmWpei/UZiiXoZjXLa5aNrZy2a1YZb25tyxR0vc5brGErZx5jDbNMxBrAaBBr"
+			"VENQrNFqr0urve6nabXXMz3vupQzK84VJRub24mmSzJP/amEShv29GRjc9v/ybqc3aWboc2HRr0+"
+			"zfHfNza3/YoTkeCnZmmsS9dtlMU+N2japPPMctmLso2y3D5x0qp0YcGJ+izOOs9yfZbt2Eg6P/0Y"
+			"Mq9Z7cuXpLF8xz/n5mU/TvKaFXfeWeSpbyPbstuu61mVU7GVU5+W13KasYbreS6LeI48yxcrVC1P"
+			"PdYwt1FYHFKEfa5seSZ9ntOvBY3lO4FDXcctZ5x0Lmn1cpox0bBcy3mse7D/POjD22Pj8v7BfmQm"
+			"ndb1yDQ7rRtyqnk1NE1U7WVtbr6v+aZ5Yx80zaWcLmVMspzmd9QOkVU545QR8bkeT8hO2bZR7e64"
+			"dN/L//LkZb0nce51Oe+azUyTvD6kWU5bmfTrSNxrRG3soXQPTjqnzzLWMD83Xx2JE2uMupxB07KM"
+			"icLKSawxnLycTxGsbNuIWCOerGIN8/Ooa3ieyhk1zf8sZlwRZeg+Sjqt67LTuuGU1iVd2ApVtUmK"
+			"6gRP5EXTzaBpruV0XZYkymmrFcuqnPXJCb/5cNad+gDAqCV57g0776pzv95Xle36INLfgm+U11tb"
+			"OW3XLPN6l5asYw3bsg8Ta4yynHmKNcLKCQBll2WsEecanrdyimTTF9jIWpS4SPt9OMqJLOWlJhvB"
+			"yraNeMoTTxLnXq4P7tJoUeKCbXSoKOVEPHk5nyJY2bYRsUY8RYg1RIpTTl3SLUoSqSgBEI3jKf/K"
+			"to0IXpBnSQc0ADifFkHZthGxBvIid6/eAAAQx+2x8chpBDMAAGBQxBoYFhUlAICRCwtObMENAABA"
+			"HMQaGEYiFSWjfM81qPdbkeiOR7MsZ9SoBrpRlZNRbgAUkd6hl23kLnMEDTNdkFG8j6vKqJfJNi3N"
+			"MiZRziyuDcQa/coQa9iOWwDIWlCsYYsr4lwfixBrFKmcaRrpqDcuwlaoGpVFp4YV8nb3xNvdC1yZ"
+			"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"
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcdbf981-16d0-400e-863c-fd453b040b55")
 	)
 	(label "5V_PI_EN"
 		(at 58.42 116.84 0)
@@ -3874,96 +4827,6 @@
 			(justify left bottom)
 		)
 		(uuid "0ab77d8d-13b0-455b-add6-76594eccff31")
-	)
-	(label "VBAT_AUX_DEN"
-		(at 120.65 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15f0a7fb-dd24-4a22-a92c-43a24b76cee9")
-	)
-	(label "5V_AUX_EN"
-		(at 175.26 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "242c1c3c-8b22-4e98-b133-05ccd61c1c4d")
-	)
-	(label "POWER_KILL"
-		(at 15.24 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3480db73-3961-47ad-84fd-c66a7c2ad73b")
-	)
-	(label "VBAT_SENSE"
-		(at 82.55 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4db77045-ded3-4a9f-ab11-569cde454e76")
-	)
-	(label "VBAT_AUX_EN"
-		(at 120.65 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "732187ec-fc21-46dc-b0b8-723032f20481")
-	)
-	(label "5V_SYS_EN"
-		(at 45.72 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a3a9b5c3-ea86-4e83-ad15-9981d4e5ee95")
-	)
-	(label "VBAT_AUX_IS"
-		(at 120.65 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7da637c-6ace-4098-a75b-446515f3b79f")
-	)
-	(label "POWER_SW"
-		(at 15.24 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db9055b6-637c-4c58-93c6-88afb7baa69d")
-	)
-	(label "5V_SYS_EN"
-		(at 111.76 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc380e92-ece7-46ac-8cea-7c75c94b6dd9")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4022,6 +4885,116 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 232.41 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 232.41 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4114,6 +5087,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 91.44 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a111149-8edb-405e-a3b1-044859e6581f")
 		)
@@ -4185,6 +5268,116 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 228.6 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 228.6 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 228.6 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 228.6 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 228.6 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 228.6 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 228.6 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 228.6 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 228.6 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 228.6 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 228.6 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4367,6 +5560,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 121.92 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a40d49a-48aa-468c-b3a9-5e7139c37728")
+		(property "Reference" "#FLG04"
+			(at 121.92 23.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 121.9199 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 121.92 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fea4da03-888c-42d2-911d-939366582def")
+		)
+		(instances
+			(project "ABsolute Bottom"
+				(path "/bb9d94db-a1bd-4b94-9444-1b5c944444b6"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 147.32 29.21 0)
 		(unit 1)
@@ -4423,6 +5696,116 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 147.32 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 147.32 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4504,6 +5887,116 @@
 		)
 		(property "Description" "744393445033"
 			(at 237.49 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 237.49 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 237.49 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 237.49 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 237.49 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 237.49 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 237.49 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 237.49 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 237.49 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 237.49 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 237.49 25.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4672,6 +6165,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 179.07 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d01caf52-3512-40d2-8f79-d01376cbed28")
 		)
@@ -4744,6 +6347,116 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 132.08 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 132.08 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4915,6 +6628,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 140.97 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9c193c4b-e942-4797-afb2-e394843bdb2d")
 		)
@@ -4987,6 +6810,116 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 189.23 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5158,6 +7091,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 101.6 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 101.6 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 101.6 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 101.6 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 101.6 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 101.6 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 101.6 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 101.6 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 101.6 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 101.6 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "327b9cc5-c5f9-4b57-9494-bd167891bee6")
 		)
@@ -5230,6 +7273,116 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 49.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 49.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 49.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 49.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 49.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 49.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 49.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 49.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 49.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 49.53 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 49.53 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5566,6 +7719,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 58.42 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "beb20d50-3dd1-4e0e-abf5-20d0bc0fd404")
 		)
@@ -5672,6 +7935,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 242.57 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ae210fb7-7fea-440a-9adf-e39a4563b893")
 		)
@@ -5682,6 +8055,86 @@
 			(project "ABsolute Bottom"
 				(path "/bb9d94db-a1bd-4b94-9444-1b5c944444b6"
 					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 252.73 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41857ecf-043f-4bae-ba4e-bfaad643521b")
+		(property "Reference" "#FLG05"
+			(at 252.73 23.495 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 252.7299 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 252.73 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e3b5b38-191c-4b08-90cb-a927c4f52132")
+		)
+		(instances
+			(project "ABsolute Bottom"
+				(path "/bb9d94db-a1bd-4b94-9444-1b5c944444b6"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -5822,6 +8275,116 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 36.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 36.83 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -5992,6 +8555,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 27.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 27.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 27.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 27.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 27.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 27.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 27.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 27.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 27.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 27.94 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ad3b71c7-7b5f-4951-a0f7-9d1c29f25176")
 		)
@@ -6075,6 +8748,116 @@
 			)
 		)
 		(property "MPN" "AO3401A"
+			(at 38.1 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 38.1 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 38.1 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 38.1 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 38.1 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 38.1 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 38.1 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 38.1 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 38.1 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 38.1 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 38.1 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -6172,6 +8955,116 @@
 			)
 		)
 		(property "MPN" "BSS138"
+			(at 35.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 35.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 35.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 35.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 35.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 35.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 35.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 35.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 35.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 35.56 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 35.56 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6357,6 +9250,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 48.26 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57fa191b-1369-4066-b1c0-434375b4f1d3")
+		(property "Reference" "#FLG03"
+			(at 48.26 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 48.2601 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 48.26 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed36b390-0277-4cb5-9ba1-5c466a636abb")
+		)
+		(instances
+			(project "ABsolute Bottom"
+				(path "/bb9d94db-a1bd-4b94-9444-1b5c944444b6"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 62.23 85.09 0)
 		(unit 1)
@@ -6413,6 +9386,116 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 62.23 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6660,6 +9743,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 111.76 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 111.76 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 111.76 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 111.76 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 111.76 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 111.76 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 111.76 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 111.76 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.76 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 111.76 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "08ffdd4c-473d-4885-9720-0bd18ff957e5")
 		)
@@ -6743,6 +9936,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 69.85 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ed2d096-f51c-484d-93c7-da373f99a1bf")
 		)
@@ -6814,6 +10117,116 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 148.59 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6987,6 +10400,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 41.91 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "769df4be-3884-4b32-94cf-f05f384f4c08")
 		)
@@ -7059,6 +10582,116 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 121.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 121.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 121.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 121.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 121.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 121.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 121.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 121.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 121.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 121.92 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 121.92 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7151,6 +10784,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 101.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "af032c0e-31b9-4a95-bd46-58c715c46c8a")
 		)
@@ -7223,6 +10966,116 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 175.26 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 175.26 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7394,6 +11247,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 16.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 16.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 16.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 16.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 16.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 16.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 16.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 16.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 16.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 16.51 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7a3f8710-91a6-45fd-b5a8-9ff989890ea5")
 		)
@@ -7485,6 +11448,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "6062b45a-b9a1-4380-833f-0574760fd5df")
 		)
@@ -7504,6 +11577,86 @@
 			(project "ABsolute Bottom"
 				(path "/bb9d94db-a1bd-4b94-9444-1b5c944444b6"
 					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 27.94 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87d80b49-5846-4337-9070-263d9e11c719")
+		(property "Reference" "#FLG010"
+			(at 29.845 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 31.75 121.9199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 27.94 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d240106-ee61-4750-89d3-d69b34fda7ff")
+		)
+		(instances
+			(project "ABsolute Bottom"
+				(path "/bb9d94db-a1bd-4b94-9444-1b5c944444b6"
+					(reference "#FLG010")
 					(unit 1)
 				)
 			)
@@ -7566,6 +11719,116 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 262.89 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 262.89 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7737,6 +12000,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 26.67 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7af01fd7-7799-44b3-9f2c-e680c911ddd8")
 		)
@@ -7887,6 +12260,116 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 242.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 242.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 242.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 242.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 242.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 242.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 242.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 242.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 242.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 242.57 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 242.57 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8071,7 +12554,7 @@
 	)
 	(symbol
 		(lib_id "ABsolute:BTS70021EPPXUMA1")
-		(at 148.59 71.12 0)
+		(at 166.37 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8101,8 +12584,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:Infineon_PG-TSDSO-14-22"
-			(at 166.37 43.18 0)
+		(property "Footprint" "ABsolute:SOP65P600X115-15N"
+			(at 184.15 48.26 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8112,8 +12595,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-bts7002-1epp-datasheet-en.pdf"
-			(at 166.37 45.72 0)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/17c904b4a086355fda7a094a57b340b7.pdf"
+			(at 184.15 50.8 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8123,8 +12606,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 166.37 48.26 0)
+		(property "Description" "INFINEON - BTS70021EPPXUMA1 - Power Load Distribution Switch AEC-Q100, High Side, Active High, 13.5V, 133A, 2.6mohm, TSDSO-14"
+			(at 184.15 53.34 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8135,7 +12618,117 @@
 			)
 		)
 		(property "MPN" "https://www.onsemi.com/download/data-sheet/pdf/bss138-d.pdf"
-			(at 148.59 71.12 0)
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" "BTS70021EPPXUMA1"
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bts70021eppxuma1/infineon-technologies-ag.html?utm_currency=USD&region=asia"
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.15"
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BTS70021EPPXUMA1"
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "726-BTS70021EPPXUMA1"
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/BTS70021EPPXUMA1?qs=qSfuJ%252Bfl%2Fd4cKoHb1mP5aw%3D%3D"
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 166.37 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8275,6 +12868,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 189.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 189.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 189.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 189.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 189.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 189.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 189.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 189.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 189.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 189.23 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "7"
 			(uuid "1ad4318f-2237-46ab-a45a-6f7418e7580a")
 		)
@@ -8381,6 +13084,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 111.76 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "172d1289-e368-4eb6-8d11-12d6bcbc6518")
 		)
@@ -8453,6 +13266,116 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 232.41 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 232.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8624,6 +13547,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 252.73 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "faa44461-880d-4bc1-8f5c-09c4e26853f1")
 		)
@@ -8706,6 +13739,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 157.48 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "03ec95c3-9329-46a8-94c0-39032ea2d6e4")
 		)
@@ -8777,6 +13920,116 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 58.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 58.42 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8869,6 +14122,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 27.94 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "69e1d3bd-13a8-445b-909a-747543c1ce8b")
 		)
@@ -8879,6 +14242,86 @@
 			(project "ABsolute Bottom"
 				(path "/bb9d94db-a1bd-4b94-9444-1b5c944444b6"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 27.94 119.38 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a41744e6-ca2a-40ba-b692-d1e403af95a3")
+		(property "Reference" "#FLG08"
+			(at 29.845 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 31.75 119.3799 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 27.94 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71dee9ab-d7fb-4702-8e88-1ffb308cd023")
+		)
+		(instances
+			(project "ABsolute Bottom"
+				(path "/bb9d94db-a1bd-4b94-9444-1b5c944444b6"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -9104,6 +14547,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 106.68 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 106.68 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 106.68 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 106.68 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 106.68 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 106.68 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 106.68 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 106.68 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 106.68 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 106.68 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d9291eff-c3f4-4d9d-94f9-0f39f7af5e90")
 		)
@@ -9176,6 +14729,116 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 105.41 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 105.41 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9425,6 +15088,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 133.35 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a847df67-98b2-47e2-aa9d-42cc0d80ad4e")
 		)
@@ -9586,6 +15359,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 91.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 91.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 91.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 91.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 91.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 91.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 91.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 91.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 91.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 91.44 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0574bda8-e9e9-407f-9133-8c6cf902f81e")
 		)
@@ -9735,6 +15618,116 @@
 		)
 		(property "Description" "Resistor"
 			(at 137.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 137.16 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 137.16 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 137.16 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 137.16 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 137.16 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 137.16 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 137.16 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 137.16 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 137.16 78.74 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 137.16 78.74 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9981,6 +15974,116 @@
 				)
 			)
 		)
+		(property "Arrow Part Number" ""
+			(at 97.79 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 97.79 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 97.79 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 97.79 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 97.79 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 97.79 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 97.79 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 97.79 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 97.79 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 97.79 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "375f6084-b197-4431-a01c-0d4565b45b81")
 		)
@@ -10053,6 +16156,116 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 167.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 167.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 167.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 167.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 167.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 167.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 167.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 167.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 167.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 167.64 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10136,7 +16349,117 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 22.86 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 22.86 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10221,6 +16544,116 @@
 			)
 		)
 		(property "Description" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 22.86 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 22.86 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -10615,6 +17048,116 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 62.23 77.47 0)
 			(hide yes)
 			(show_name no)
