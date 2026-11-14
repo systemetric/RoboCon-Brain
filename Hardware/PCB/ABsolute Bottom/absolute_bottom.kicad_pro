@@ -665,13 +665,17 @@
         "uuid": "c85fa964-e79a-4186-9da5-35b609a2eb49"
       }
     ],
-    "used_designators": "#PWR1-44,C1-40,J1-3,L1-2,Q1-2,R1-20,TP1-6,U1-8,Y1",
+    "used_designators": "#PWR1-100,BZ1,C1-50,J1-17,L1-2,Q1-2,R1-31,TP1-6,U1-13,Y1",
     "variants": []
   },
   "sheets": [
     [
       "c85fa964-e79a-4186-9da5-35b609a2eb49",
       "Root"
+    ],
+    [
+      "c45e555e-a466-4a2c-b4b1-0750a6ee5145",
+      "Controller"
     ],
     [
       "7b8af9f0-9d88-4077-9617-34cf45eb305a",
@@ -688,14 +692,6 @@
     [
       "376f80db-bcbb-46d5-a81a-454654732cae",
       "USB"
-    ],
-    [
-      "01719c2f-90cb-4036-bac5-8dea7eeedf45",
-      "PI"
-    ],
-    [
-      "4d44d8e9-8b8e-4e43-8b79-9a840dd779c8",
-      "IMU"
     ]
   ],
   "text_variables": {},

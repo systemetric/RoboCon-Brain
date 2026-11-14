@@ -6,58 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "ABsolute Bottom")
-		(date "2026-11-10")
+		(date "2026-11-14")
 		(rev "1")
 		(company "RoboCon")
 		(comment 1 "Made by Logan Poole")
 	)
 	(lib_symbols)
-	(sheet
-		(at 60.96 100.838)
-		(size 33.528 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "01719c2f-90cb-4036-bac5-8dea7eeedf45")
-		(property "Sheetname" "PI"
-			(at 60.96 100.1264 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pi.kicad_sch"
-			(at 60.96 124.2826 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "absolute_bottom"
-				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49"
-					(page "6")
-				)
-			)
-		)
-	)
 	(sheet
 		(at 127 107.188)
 		(size 26.67 21.082)
@@ -99,53 +53,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 89.408 153.67)
-		(size 33.02 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "4d44d8e9-8b8e-4e43-8b79-9a840dd779c8")
-		(property "Sheetname" "IMU"
-			(at 89.408 152.9584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "imu.kicad_sch"
-			(at 89.408 172.0346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "absolute_bottom"
-				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -179,6 +87,52 @@
 		)
 		(property "Sheetfile" "power.kicad_sch"
 			(at 177.292 118.1866 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "absolute_bottom"
+				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 104.14)
+		(size 30.48 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c45e555e-a466-4a2c-b4b1-0750a6ee5145")
+		(property "Sheetname" "Controller"
+			(at 62.23 103.4284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 62.23 145.3646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -237,7 +191,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -283,7 +237,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49"
-					(page "4")
+					(page "5")
 				)
 			)
 		)

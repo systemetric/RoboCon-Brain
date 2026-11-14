@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "Motor Driver")
-		(date "2026-11-10")
+		(date "2026-11-14")
 		(rev "1")
 		(company "RoboCon")
 		(comment 1 "Made by Logan Poole")
@@ -1513,6 +1513,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 66.04) (xy 64.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ffef55-ee7f-459f-8827-3d0467be95b6")
+	)
+	(wire
+		(pts
 			(xy 74.93 41.91) (xy 85.09 41.91)
 		)
 		(stroke
@@ -1533,6 +1543,26 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 60.96) (xy 64.77 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e72068-531d-4d7d-81b1-24387518898a")
+	)
+	(wire
+		(pts
+			(xy 46.99 63.5) (xy 64.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3c76a2-f474-46fc-a4c9-079ebdf11d18")
+	)
+	(wire
+		(pts
 			(xy 49.53 81.28) (xy 62.23 81.28)
 		)
 		(stroke
@@ -1550,6 +1580,16 @@
 			(type default)
 		)
 		(uuid "c277cbc2-9c6a-4143-8967-0adb8136325e")
+	)
+	(wire
+		(pts
+			(xy 46.99 68.58) (xy 64.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4c8ab6-1cc2-42c0-81d5-9eec9ba738d9")
 	)
 	(wire
 		(pts
@@ -1581,9 +1621,9 @@
 		)
 		(uuid "839b3722-4940-4ce0-b30e-3e1245c0c518")
 	)
-	(hierarchical_label "CS"
+	(hierarchical_label "MOTOR_CS"
 		(shape input)
-		(at 64.77 68.58 180)
+		(at 46.99 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1592,7 +1632,7 @@
 		)
 		(uuid "692c13bd-9ea7-417b-9b26-544a9f69b847")
 	)
-	(hierarchical_label "IS"
+	(hierarchical_label "MOTOR_IS"
 		(shape output)
 		(at 46.99 73.66 180)
 		(effects
@@ -1605,7 +1645,7 @@
 	)
 	(hierarchical_label "SDI"
 		(shape input)
-		(at 64.77 60.96 180)
+		(at 46.99 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1616,7 +1656,7 @@
 	)
 	(hierarchical_label "SDO"
 		(shape output)
-		(at 64.77 63.5 180)
+		(at 46.99 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1627,7 +1667,7 @@
 	)
 	(hierarchical_label "SCLK"
 		(shape input)
-		(at 64.77 66.04 180)
+		(at 46.99 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
