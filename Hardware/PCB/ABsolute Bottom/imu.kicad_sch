@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "845b63ea-26cd-4b91-b2d4-548a1e1eda96")
+	(paper "A4")
+	(title_block
+		(date "2026-11-10")
+		(rev "1")
+		(company "RoboCon")
+		(comment 1 "Made by Logan Poole")
+	)
+	(lib_symbols)
+)
