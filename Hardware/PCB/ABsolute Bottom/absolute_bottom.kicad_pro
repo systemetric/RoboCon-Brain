@@ -665,7 +665,7 @@
         "uuid": "c85fa964-e79a-4186-9da5-35b609a2eb49"
       }
     ],
-    "used_designators": "#PWR1-100,BZ1,C1-50,J1-17,L1-2,Q1-2,R1-31,TP1-6,U1-13,Y1",
+    "used_designators": "#FLG1-10,#PWR1-113,BZ1,C1-66,D1,FID1-6,H1-4,J1-20,L1-2,Q1-2,R1-36,TP1-13,U1-18,Y1",
     "variants": []
   },
   "sheets": [
@@ -682,12 +682,8 @@
       "Power"
     ],
     [
-      "dc1ecfc3-86e6-498c-a8a7-c3b44b37f833",
-      "Motor 0"
-    ],
-    [
-      "e7b74655-51a9-48d3-a098-55fa29c0d367",
-      "Motor 1"
+      "7d0a1d95-c7f5-461f-aded-c152f71c9d40",
+      "Motors"
     ],
     [
       "376f80db-bcbb-46d5-a81a-454654732cae",
