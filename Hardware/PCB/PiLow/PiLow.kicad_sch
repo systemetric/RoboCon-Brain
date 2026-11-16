@@ -21943,27 +21943,26 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ccc49230-843d-4f42-890e-3b209b6d9d56")
 		(property "Reference" "Q2"
-			(at 63.5 186.69 0)
+			(at 67.31 195.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "Q_NMOS_GSD"
-			(at 68.58 194.31 90)
+			(at 67.31 198.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
