@@ -5,6 +5,7 @@
 **/*.bck
 **/*.old
 **/*.orig
+**/*.history
 **/*.backup
 **/*~
 

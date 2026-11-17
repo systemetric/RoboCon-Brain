@@ -5,11 +5,11 @@
 	(uuid "2e282c28-8616-4227-aff8-0ddab87ea855")
 	(paper "A5")
 	(title_block
-		(title "Motors")
-		(date "2026-11-14")
+		(title "ABsolute Bottom")
+		(date "2026-11-17")
 		(rev "1")
-		(company "RoboCon")
-		(comment 1 "Made by Logan Poole")
+		(comment 1 "Logan Poole")
+		(comment 2 "Motors")
 	)
 	(lib_symbols
 		(symbol "ABsolute:BTM9021EP"
@@ -1144,6 +1144,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1260,6 +1399,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Motor 1"
+		(exclude_from_sim no)
+		(at 113.284 44.958 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "20a8f90d-b3db-4c6d-bd3d-9d7acb1b2a2d")
+	)
+	(text "Motor 0"
+		(exclude_from_sim no)
+		(at 44.45 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f8d4032-5774-443e-bf8f-fb56cec182f5")
+	)
 	(junction
 		(at 133.35 80.01)
 		(diameter 0)
@@ -1301,6 +1460,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e682744-68e4-4ab0-aa05-ec109232334b")
+	)
+	(junction
+		(at 128.27 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "43223b66-f3cf-4f50-be9f-eb0869d988d0")
 	)
 	(junction
 		(at 54.61 80.01)
@@ -1354,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 62.23) (xy 135.89 62.23)
+			(xy 118.11 62.23) (xy 128.27 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1434,6 +1599,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 62.23) (xy 135.89 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80737da8-a810-4a84-825d-e9b27dec21ab")
+	)
+	(wire
+		(pts
 			(xy 54.61 80.01) (xy 67.31 80.01)
 		)
 		(stroke
@@ -1441,6 +1616,16 @@
 			(type default)
 		)
 		(uuid "87d86ed1-a234-4fb6-ad00-c49e3b7576a1")
+	)
+	(wire
+		(pts
+			(xy 128.27 57.15) (xy 128.27 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8859abee-61c6-4f4f-b4a5-128c693e3f2f")
 	)
 	(wire
 		(pts
@@ -1654,17 +1839,6 @@
 		)
 		(uuid "1042a76b-6979-4862-8837-6499173d4796")
 	)
-	(hierarchical_label "MOSI"
-		(shape input)
-		(at 118.11 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "118e90af-c2ea-4d03-9737-e255e386e562")
-	)
 	(hierarchical_label "MOTOR0_CS"
 		(shape input)
 		(at 39.37 67.31 180)
@@ -1698,6 +1872,17 @@
 		)
 		(uuid "3c6f4aca-f701-4965-b53a-9d989b97063a")
 	)
+	(hierarchical_label "SCK"
+		(shape input)
+		(at 118.11 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68b77470-9223-41aa-bd5f-638393e2cff9")
+	)
 	(hierarchical_label "MOTOR1_IS"
 		(shape output)
 		(at 118.11 72.39 180)
@@ -1718,18 +1903,18 @@
 			)
 			(justify right)
 		)
-		(uuid "901245c1-293c-46c5-b3f2-20a7e9926530")
+		(uuid "ab7dc6e3-4583-4289-9654-b5f4307e39c6")
 	)
-	(hierarchical_label "SCK"
+	(hierarchical_label "MOSI"
 		(shape input)
-		(at 118.11 64.77 180)
+		(at 118.11 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9e4cf0f7-c75b-4800-a4f7-945f3723ef0f")
+		(uuid "d48a3d60-07a5-4d50-b112-7b81329a08f7")
 	)
 	(hierarchical_label "MISO"
 		(shape output)
@@ -2271,6 +2456,88 @@
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42d179a4-a6c6-4e91-9a5d-207b17ed6b95")
+		(property "Reference" "R29"
+			(at 130.81 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 130.81 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 126.492 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f745263-783e-4a06-bd45-9c061dcec7f9")
+		)
+		(pin "1"
+			(uuid "6a0b62cc-2467-4b1a-9e8b-0766664c3015")
+		)
+		(instances
+			(project "absolute_bottom"
+				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3125,6 +3392,84 @@
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 128.27 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2a15882-9dc0-47f7-b90b-a280511a6fbc")
+		(property "Reference" "#PWR092"
+			(at 128.27 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_SYS"
+			(at 128.27 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 128.27 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23590998-fb8e-4ef9-b589-80bde64a2b82")
+		)
+		(instances
+			(project "absolute_bottom"
+				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
