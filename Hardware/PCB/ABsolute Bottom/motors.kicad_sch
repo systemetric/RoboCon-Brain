@@ -243,7 +243,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin tri_state line
 					(at -10.16 3.81 0)
 					(length 2.54)
 					(name "SDO"
@@ -279,7 +279,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 0 11.43 270)
 					(length 2.54)
 					(hide yes)
@@ -1928,138 +1928,6 @@
 		(uuid "eb9bdb09-aa9a-4935-892e-5adf5bf386ef")
 	)
 	(symbol
-		(lib_id "ABsolute:BTM9021EP")
-		(at 67.31 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b004252-d35f-45fc-9402-2dc5d08df334")
-		(property "Reference" "U9"
-			(at 69.4533 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BTM9021EP"
-			(at 69.4533 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:Infineon_PG-TSDSO-14-22"
-			(at 67.31 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-btm9020ep-btm9021ep-datasheet-en.pdf"
-			(at 67.31 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "BTM9021EPXUMA1"
-			(at 67.31 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "e5c3fcc3-be22-413b-a367-7d18c869d127")
-		)
-		(pin "1"
-			(uuid "7d63e3e5-1d98-49cc-ad6b-4e32da13512e")
-		)
-		(pin "7"
-			(uuid "8d0be831-0ef0-4f73-84d9-eb0cf2da3fca")
-		)
-		(pin "11"
-			(uuid "554e6e5d-4fe1-40c3-b43a-b302d3093c04")
-		)
-		(pin "3"
-			(uuid "3a9e94a0-3d43-486c-bf0e-604bac83adbd")
-		)
-		(pin "2"
-			(uuid "4abf9479-8020-4e3b-b848-777389a89f59")
-		)
-		(pin "8"
-			(uuid "696f388c-6006-4aeb-a04e-1306fb82d864")
-		)
-		(pin "13"
-			(uuid "286f21e5-e22c-437b-99f2-c76d65e07f83")
-		)
-		(pin "6"
-			(uuid "b6fb5438-b3eb-4103-b92c-7423e25d596c")
-		)
-		(pin "15"
-			(uuid "15547352-f2b9-4290-9080-e6a6519e298d")
-		)
-		(pin "4"
-			(uuid "f73e0204-df46-4450-9723-3866ff20f133")
-		)
-		(pin "5"
-			(uuid "e2dfb186-16ae-4d3b-8153-6597c7d1217e")
-		)
-		(pin "12"
-			(uuid "2c6c286f-3133-46b2-93c9-ef3d9c3edbff")
-		)
-		(pin "10"
-			(uuid "50c188df-2b49-4606-8c3e-7f63430a2b1e")
-		)
-		(pin "14"
-			(uuid "7c4bf2a8-518e-44e2-a278-94518d1a9328")
-		)
-		(instances
-			(project "absolute_bottom"
-				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 133.35 76.2 0)
 		(unit 1)
@@ -2071,7 +1939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cfc8723-6d73-4b15-a64a-138e82b1466a")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 135.89 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2115,7 +1983,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 133.35 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2135,7 +2003,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2163,7 +2031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M0"
+		(property "Value" "Conn_01x02"
 			(at 85.09 67.3099 0)
 			(hide yes)
 			(show_name no)
@@ -2197,7 +2065,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 82.55 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -2279,7 +2147,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 146.05 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -2300,6 +2168,138 @@
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ABsolute:BTM9021EP")
+		(at 67.31 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "202bda6b-d142-4877-af4c-50b6fb0f122d")
+		(property "Reference" "U9"
+			(at 69.4533 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BTM9021EP"
+			(at 69.4533 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:Infineon_PG-TSDSO-14-22"
+			(at 67.31 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/10/49/infineon-btm9020ep-btm9021ep-datasheet-en.pdf"
+			(at 67.31 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "BTM9021EPXUMA1"
+			(at 67.31 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "12"
+			(uuid "a25657f0-81b4-4a48-bfb4-01902cb9eabb")
+		)
+		(pin "4"
+			(uuid "dbef481d-9736-4814-87d4-4cf2b49099fc")
+		)
+		(pin "9"
+			(uuid "3178a411-3308-401a-82ca-294de1e34aa7")
+		)
+		(pin "8"
+			(uuid "575e0d4b-ad7b-4626-ba13-7b82a4919fbc")
+		)
+		(pin "10"
+			(uuid "9d349871-9427-4927-9376-960e0d8ef0b0")
+		)
+		(pin "6"
+			(uuid "bd0d8af9-d6c5-4d50-aa35-cc5077ec5b6f")
+		)
+		(pin "15"
+			(uuid "d6b86b0d-2f03-4ced-80b7-d6af6c3af985")
+		)
+		(pin "2"
+			(uuid "dbe7e8c8-2bea-4c6c-8ad3-4964bfb70fb5")
+		)
+		(pin "1"
+			(uuid "39e896d0-58d0-4f92-a498-2803a82a6099")
+		)
+		(pin "14"
+			(uuid "3d99d969-8c9e-425f-845d-f0eeed543717")
+		)
+		(pin "11"
+			(uuid "331c5e39-156c-4641-93ba-2f2a1311c411")
+		)
+		(pin "5"
+			(uuid "ad9e5cdc-aa28-4ef9-96c1-d293e30a7618")
+		)
+		(pin "3"
+			(uuid "c4d72174-14ff-4d55-890c-c5d8b5b11ade")
+		)
+		(pin "13"
+			(uuid "7186c4a3-3c43-4853-9b8b-351ab0e358fd")
+		)
+		(pin "7"
+			(uuid "aafa4de6-4b4c-43f0-84d8-849eaef2989c")
+		)
+		(instances
+			(project "absolute_bottom"
+				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2473,7 +2473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d179a4-a6c6-4e91-9a5d-207b17ed6b95")
-		(property "Reference" "R29"
+		(property "Reference" "R21"
 			(at 130.81 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2517,7 +2517,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 128.27 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2537,7 +2537,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
-					(reference "R29")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2599,7 +2599,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 41.91 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2637,7 +2637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "581d3ec9-2fc6-4ec2-89e6-e5ae723787c9")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR075"
 			(at 146.05 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -2697,7 +2697,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
-					(reference "#PWR074")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -2759,7 +2759,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor"
 			(at 156.21 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -2864,6 +2864,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 77.47 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "732fd201-ca61-4492-9521-e58782b682ed")
+		(property "Reference" "C30"
+			(at 81.28 34.6709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220u"
+			(at 81.28 37.2109 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon"
+			(at 78.4352 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 77.47 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6388b0a0-28a0-44f1-b058-b36c5c8656cb")
+		)
+		(pin "2"
+			(uuid "1c81d461-2d44-4165-8be4-6f0983305ca5")
+		)
+		(instances
+			(project "absolute_bottom"
+				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ABsolute:BTM9021EP")
 		(at 146.05 66.04 0)
 		(unit 1)
@@ -2874,7 +2956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "70713e06-d17f-4512-ac33-8780abd29a23")
+		(uuid "75bc26a4-73ee-47b5-8785-26534cbd4b87")
 		(property "Reference" "U10"
 			(at 148.1933 52.07 0)
 			(show_name no)
@@ -2941,137 +3023,55 @@
 				)
 			)
 		)
-		(pin "9"
-			(uuid "3fdb8388-6d11-4770-bcb2-c4e1a224084a")
-		)
-		(pin "1"
-			(uuid "bbc06c23-b1ce-463a-973e-6e0af0035adf")
-		)
-		(pin "7"
-			(uuid "ce09500c-aa32-4fea-9eb5-44bf9d16c2e7")
-		)
-		(pin "11"
-			(uuid "ee8e8ace-cbc3-4b21-8747-6e4483546da0")
-		)
-		(pin "3"
-			(uuid "6d33db17-bf1c-4d5f-8ddd-407bb3273670")
-		)
-		(pin "2"
-			(uuid "7e7a9bc8-403e-4971-9b3d-ae6554b9f570")
-		)
-		(pin "8"
-			(uuid "f96e28d1-2e39-4acd-8df7-5773fd6b98f1")
-		)
-		(pin "13"
-			(uuid "f2df97e0-4595-4e0c-a49d-5b538d5e2ce3")
-		)
-		(pin "6"
-			(uuid "a2d013f0-1275-46b3-814f-3691751d0e11")
-		)
-		(pin "15"
-			(uuid "d205eed9-6d26-4cb0-bacd-f04e4b8f3311")
+		(pin "12"
+			(uuid "d89eb53d-27e5-47e1-9543-344859c07a8f")
 		)
 		(pin "4"
-			(uuid "b4aec832-5015-4260-a1af-56d88ef8443d")
+			(uuid "9516e5c6-a54a-4650-97fb-86436a4d9387")
 		)
-		(pin "5"
-			(uuid "ea8b68e9-f3b6-4f27-9616-9e50e1ae575e")
+		(pin "9"
+			(uuid "f5696dac-5d0a-4def-98c2-0a5390bcf4bc")
 		)
-		(pin "12"
-			(uuid "d5d7c6f2-bba7-463b-9e41-95bf4f09a6d9")
+		(pin "8"
+			(uuid "1bdda89c-24d6-4ac6-a990-bac7f318ab38")
 		)
 		(pin "10"
-			(uuid "e1634612-7b2c-4d2e-b3c6-d72969ff833e")
+			(uuid "a8d8e378-60e4-4c0f-9d3f-b6d9e30f743b")
+		)
+		(pin "6"
+			(uuid "e553285b-2972-459b-ae55-d1c08e9c62ac")
+		)
+		(pin "15"
+			(uuid "47d30203-1cd8-475c-ae3f-0f388a6619e4")
+		)
+		(pin "2"
+			(uuid "4fd238b9-8386-42f3-886c-fd4107f3443e")
+		)
+		(pin "1"
+			(uuid "cf09676f-8c40-4fba-9493-be00d6f3443a")
 		)
 		(pin "14"
-			(uuid "186a19ce-eadc-48c9-8713-8a4e8c82ab3d")
+			(uuid "db0ba5f8-6b98-47a4-9c4e-a08a18c36840")
+		)
+		(pin "11"
+			(uuid "fb13108e-3438-4c37-ade6-b5a966305d5b")
+		)
+		(pin "5"
+			(uuid "a8a1a28d-ed7d-4e28-af00-16c9750294fc")
+		)
+		(pin "3"
+			(uuid "6cd027c1-92c6-4c43-ad0b-3680e337d24d")
+		)
+		(pin "13"
+			(uuid "eb366060-97bf-4e9e-b65f-5c9eee0215b0")
+		)
+		(pin "7"
+			(uuid "2316d67f-3349-4d6d-aa27-28f6f4fce842")
 		)
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 77.47 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "732fd201-ca61-4492-9521-e58782b682ed")
-		(property "Reference" "C30"
-			(at 81.28 34.6709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220u"
-			(at 81.28 37.2109 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.4_Nichicon"
-			(at 78.4352 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6388b0a0-28a0-44f1-b058-b36c5c8656cb")
-		)
-		(pin "2"
-			(uuid "1c81d461-2d44-4165-8be4-6f0983305ca5")
-		)
-		(instances
-			(project "absolute_bottom"
-				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
-					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -3099,7 +3099,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M0"
+		(property "Value" "Conn_01x02"
 			(at 163.83 67.3099 0)
 			(hide yes)
 			(show_name no)
@@ -3133,7 +3133,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 161.29 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3213,7 +3213,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 48.26 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3293,7 +3293,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 127 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -3331,7 +3331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d05b9c8-a5d3-429e-b21d-1486783ac91a")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR073"
 			(at 146.05 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3391,7 +3391,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
-					(reference "#PWR072")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -3409,7 +3409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2a15882-9dc0-47f7-b90b-a280511a6fbc")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR072"
 			(at 128.27 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3469,7 +3469,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
-					(reference "#PWR092")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3487,7 +3487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5fbcc75-f472-4ec2-bb34-7e865f760208")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR076"
 			(at 146.05 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3547,7 +3547,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
-					(reference "#PWR075")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -3609,7 +3609,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 67.31 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3691,7 +3691,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 120.65 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3851,7 +3851,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 57.15 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3933,7 +3933,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 135.89 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -3971,7 +3971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8c0995f-8523-4a38-a286-b415ed57196c")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR074"
 			(at 146.05 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4031,7 +4031,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40"
-					(reference "#PWR073")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4093,7 +4093,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 54.61 76.2 0)
 			(hide yes)
 			(show_name no)

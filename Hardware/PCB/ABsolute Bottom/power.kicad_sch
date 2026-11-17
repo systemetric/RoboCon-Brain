@@ -552,7 +552,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at 12.7 6.35 180)
 					(length 2.54)
 					(name "SW"
@@ -4660,7 +4660,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 44.45 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4742,7 +4742,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 102.87 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4824,7 +4824,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 238.76 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4984,7 +4984,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 170.18 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5256,7 +5256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15147ee4-75c5-43e3-af39-bfb4bc86c151")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG04"
 			(at 44.45 59.055 0)
 			(hide yes)
 			(show_name no)
@@ -5316,7 +5316,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "#FLG01")
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -5456,7 +5456,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 44.45 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5616,7 +5616,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 24.13 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5698,7 +5698,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 260.35 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5858,7 +5858,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 43.18 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5940,7 +5940,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 34.29 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5990,8 +5990,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Conn_01x02"
 			(at 30.48 143.51 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6104,7 +6105,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 180.34 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6725,7 +6726,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 205.74 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6962,7 +6963,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 209.55 127 0)
 			(hide yes)
 			(show_name no)
@@ -7000,7 +7001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44f3c00b-94be-4e34-823f-11ca42ae4fb0")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 37.465 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7061,7 +7062,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -7201,7 +7202,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 134.62 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7395,7 +7396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5254bdec-9398-46d0-be70-6d59cc667db1")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG07"
 			(at 241.935 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7456,7 +7457,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "#FLG08")
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -7516,7 +7517,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 224.79 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -7680,7 +7681,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 113.03 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -7730,8 +7731,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Conn_01x02"
 			(at 30.48 176.53 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7762,7 +7764,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 30.48 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7844,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 165.1 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -8004,7 +8006,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 118.11 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -8086,7 +8088,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 113.03 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -8280,7 +8282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70b5cdcb-c261-41fb-bc7c-bcf9d951da67")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG08"
 			(at 248.92 37.465 0)
 			(hide yes)
 			(show_name no)
@@ -8340,7 +8342,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "#FLG03")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -8480,7 +8482,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 270.51 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8512,13 +8514,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78251bbc-7e4b-4341-9801-f363cf625388")
-		(property "Reference" "TP8"
+		(property "Reference" "TP6"
 			(at 166.37 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8579,7 +8581,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "TP8")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -8597,7 +8599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "794e3ea2-1282-47b6-93eb-4fa0e5547ca7")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG03"
 			(at 37.465 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8658,7 +8660,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "#FLG04")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -8876,7 +8878,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 189.23 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9017,8 +9019,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Conn_01x02"
 			(at 30.48 160.02 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9049,7 +9052,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 30.48 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -9261,7 +9264,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 248.92 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9343,7 +9346,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -9459,7 +9462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a158ad24-f647-49aa-8ae5-f821f0bb47f0")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG05"
 			(at 63.5 93.345 0)
 			(hide yes)
 			(show_name no)
@@ -9519,7 +9522,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "#FLG06")
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
@@ -9647,7 +9650,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9929,7 +9932,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 248.92 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10167,7 +10170,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 160.02 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -10249,7 +10252,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 238.76 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10565,7 +10568,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 102.87 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10614,8 +10617,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Conn_01x08_MountingPin"
 			(at 71.12 162.9155 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10647,7 +10651,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 73.66 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -10750,7 +10754,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 170.18 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10947,7 +10951,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 43.18 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11029,7 +11033,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 124.46 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11518,7 +11522,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 201.93 127 0)
 			(hide yes)
 			(show_name no)
@@ -11556,7 +11560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e98b5bce-1041-4c76-a76e-a6fcc976e299")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG06"
 			(at 113.03 27.305 0)
 			(hide yes)
 			(show_name no)
@@ -11616,7 +11620,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "#FLG02")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -11755,7 +11759,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 132.08 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11837,7 +11841,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 180.34 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12025,13 +12029,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fabd1e73-8c1b-4ed1-8483-f60b49639a29")
-		(property "Reference" "TP12"
+		(property "Reference" "TP4"
 			(at 64.77 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12092,7 +12096,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "TP12")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -12182,13 +12186,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdbd7165-689f-42dd-95f1-da91f163f50e")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 124.46 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12247,7 +12251,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12298,7 +12302,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/download/data-sheet/pdf/bss138-d.pdf"
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
 			(at 50.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -12309,7 +12313,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
 			(at 50.8 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -12322,6 +12326,39 @@
 		)
 		(property "MPN" "BSS138"
 			(at 50.8 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 50.8 131.445 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 50.8 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 50.8 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

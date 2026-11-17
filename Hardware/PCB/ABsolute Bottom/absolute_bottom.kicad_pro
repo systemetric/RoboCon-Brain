@@ -266,19 +266,7 @@
     "erc_exclusions": [
       [
         "lib_symbol_mismatch|1612900|457200|d3539af7-ce8e-44c7-8a54-16c97a68b988|00000000-0000-0000-0000-000000000000|||",
-        "Approved 17/11/26"
-      ],
-      [
-        "multiple_net_names|457200|1739900|6bf1a19b-f5aa-48d3-976e-93af0dde849d|45f093b0-88d5-4177-acbf-511ef1473a34|/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145|/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145|/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145",
-        "Approved 17/11/26"
-      ],
-      [
-        "multiple_net_names|673100|546100|ce34fa73-6366-4def-82b8-4bc6daa004ea|554e6e5d-4fe1-40c3-b43a-b302d3093c04|/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40|/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40|/c85fa964-e79a-4186-9da5-35b609a2eb49/7d0a1d95-c7f5-461f-aded-c152f71c9d40",
-        "Approved 17/11/26"
-      ],
-      [
-        "multiple_net_names|774700|736600|7414cf7f-7492-4d6f-aac1-bc4fb45c775b|5e99e9a3-26b3-4988-bfab-1defa4427b72|/c85fa964-e79a-4186-9da5-35b609a2eb49/376f80db-bcbb-46d5-a81a-454654732cae|/c85fa964-e79a-4186-9da5-35b609a2eb49/376f80db-bcbb-46d5-a81a-454654732cae|/c85fa964-e79a-4186-9da5-35b609a2eb49/376f80db-bcbb-46d5-a81a-454654732cae",
-        "Approved 17/11/26"
+        "Approved 17/11/2026"
       ]
     ],
     "meta": {
@@ -644,14 +632,50 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "MPN",
+          "name": "MPN",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -681,6 +705,14 @@
     "legacy_lib_list": [],
     "meta": {
       "version": 1
+    },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "kicad-embed://ABsolute Template.kicad_wks",
     "plot_directory": "",
