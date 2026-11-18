@@ -489,20 +489,19 @@
 					)
 				)
 			)
-			(symbol "BMI323_0_1"
+			(symbol "BMI323_1_1"
 				(rectangle
 					(start -6.35 5.08)
 					(end 6.35 -5.08)
 					(stroke
 						(width 0)
-						(type default)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
-			)
-			(symbol "BMI323_1_1"
 				(pin input line
 					(at -8.89 -2.54 0)
 					(length 2.54)
@@ -5544,6 +5543,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21b60813-8fd5-473d-bcb8-462fd980598b")
+	)
+	(junction
+		(at 102.87 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2df884da-80a1-4871-b12d-115c00b33d4f")
 	)
 	(junction
 		(at 123.19 53.34)
@@ -10719,6 +10724,84 @@
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 102.87 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c398bb39-cfc1-4445-b06b-90ac0e7c48d0")
+		(property "Reference" "TP11"
+			(at 101.6 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3V_PI"
+			(at 101.6 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 107.95 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 102.87 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "04ea9e67-f6d0-4bdc-82cb-cf2b5bd679c5")
+		)
+		(instances
+			(project "absolute_bottom"
+				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
