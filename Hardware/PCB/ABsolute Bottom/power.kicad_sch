@@ -4539,7 +4539,7 @@
 		(uuid "4636fd96-f9a6-48a4-b538-0a788f890108")
 	)
 	(hierarchical_label "POWER_SW"
-		(shape output)
+		(shape input)
 		(at 40.64 99.06 180)
 		(effects
 			(font
@@ -4560,8 +4560,8 @@
 		)
 		(uuid "aec3d45d-037d-46c7-a24d-f4baf1b51095")
 	)
-	(hierarchical_label "5V_SYS_EN"
-		(shape output)
+	(hierarchical_label "5V_AUX_EN"
+		(shape input)
 		(at 167.64 58.42 180)
 		(effects
 			(font

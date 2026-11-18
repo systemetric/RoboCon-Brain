@@ -5680,10 +5680,6 @@
 		(uuid "2ca3716b-c351-42e4-938d-bde907bd9570")
 	)
 	(no_connect
-		(at 72.39 90.17)
-		(uuid "3eef9673-e5c8-4ffe-9879-080c7532a15f")
-	)
-	(no_connect
 		(at 107.95 45.72)
 		(uuid "432e831f-2441-4e27-829b-ce383d91eeb3")
 	)
@@ -7470,6 +7466,17 @@
 			(justify right)
 		)
 		(uuid "82c686b6-d0a0-456a-b9fc-b07cb0afd310")
+	)
+	(hierarchical_label "5V_AUX_EN"
+		(shape output)
+		(at 72.39 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0dc4afe-3fc1-45eb-a154-413cfc37d3e5")
 	)
 	(hierarchical_label "VBAT_AUX_EN"
 		(shape output)

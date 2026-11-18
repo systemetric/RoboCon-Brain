@@ -457,6 +457,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 59.69) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8d8c2b-acc1-4ae9-bf41-13cad5d99891")
+	)
+	(wire
+		(pts
 			(xy 77.47 36.83) (xy 82.55 36.83)
 		)
 		(stroke
@@ -1406,7 +1416,7 @@
 		)
 	)
 	(sheet
-		(at 57.15 64.77)
+		(at 57.15 67.31)
 		(size 81.28 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1423,7 +1433,7 @@
 		)
 		(uuid "376f80db-bcbb-46d5-a81a-454654732cae")
 		(property "Sheetname" "USB"
-			(at 57.15 64.0584 0)
+			(at 57.15 66.5984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1434,7 +1444,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 57.15 72.9746 0)
+			(at 57.15 75.5146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1455,7 +1465,7 @@
 	)
 	(sheet
 		(at 57.15 34.29)
-		(size 20.32 25.4)
+		(size 20.32 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1482,7 +1492,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 57.15 60.0206 0)
+			(at 57.15 62.8146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1548,7 +1558,7 @@
 				(justify right)
 			)
 		)
-		(pin "POWER_SW" output
+		(pin "POWER_SW" input
 			(at 77.47 46.99 0)
 			(uuid "b784348d-8028-4d9a-a078-35bb9c8a5ee9")
 			(effects
@@ -1570,6 +1580,17 @@
 				(justify right)
 			)
 		)
+		(pin "5V_AUX_EN" input
+			(at 77.47 59.69 0)
+			(uuid "6e7e6469-2255-416d-ab09-8b4fb01d6651")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49"
@@ -1580,7 +1601,7 @@
 	)
 	(sheet
 		(at 118.11 34.29)
-		(size 20.32 25.4)
+		(size 20.32 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1607,7 +1628,7 @@
 			)
 		)
 		(property "Sheetfile" "motors.kicad_sch"
-			(at 118.11 60.2746 0)
+			(at 118.11 62.8146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1705,7 +1726,7 @@
 	)
 	(sheet
 		(at 82.55 34.29)
-		(size 30.48 25.4)
+		(size 30.48 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1732,7 +1753,7 @@
 			)
 		)
 		(property "Sheetfile" "controller.kicad_sch"
-			(at 82.55 60.2746 0)
+			(at 82.55 62.8146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1895,6 +1916,17 @@
 					(color 255 255 255 1)
 				)
 				(justify right)
+			)
+		)
+		(pin "5V_AUX_EN" output
+			(at 82.55 59.69 180)
+			(uuid "041d3c29-cd07-4d1f-bd1f-bc7716a8d3f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
 			)
 		)
 		(instances
