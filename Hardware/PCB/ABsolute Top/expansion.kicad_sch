@@ -9,6 +9,7 @@
 		(date "2026-11-17")
 		(rev "1")
 		(comment 1 "Logan Poole")
+		(comment 2 "Expansion")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
@@ -276,7 +277,7 @@
 		)
 		(uuid "bb35c405-dcd5-404f-a8fe-d31f5e0b80b4")
 	)
-	(hierarchical_label "GPIO 18"
+	(hierarchical_label "GPIO 19"
 		(shape bidirectional)
 		(at 48.26 78.74 0)
 		(effects

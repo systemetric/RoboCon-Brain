@@ -9,6 +9,7 @@
 		(date "2026-11-17")
 		(rev "1")
 		(comment 1 "Logan Poole")
+		(comment 2 "Controller")
 	)
 	(lib_symbols
 		(symbol "Conn_01x08_1"
@@ -1213,6 +1214,519 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:LTST-C235KGKRKT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -5.08 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LTST-C235KGKRKT"
+				(at 0 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_LiteOn_LTST-C235KGKRKT"
+				(at 0.762 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf"
+				(at 0.762 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "LED dual red/green, 4-pin, down-facing"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode bicolor down-facing reverse"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*LTST*C235K*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LTST-C235KGKRKT_0_0"
+				(text "R"
+					(at -2.54 1.27 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+					)
+				)
+				(text "G"
+					(at -2.54 -1.27 0)
+					(effects
+						(font
+							(size 1.2954 1.2954)
+						)
+					)
+				)
+			)
+			(symbol "LTST-C235KGKRKT_0_1"
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 2.032 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.81) (xy -1.27 1.27) (xy 1.27 2.54) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -3.81) (xy 1.27 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.794 6.604) (xy 2.032 6.604) (xy 2.794 6.604) (xy 2.794 5.842)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.81) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.2032)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.81) (xy 4.064 5.334) (xy 3.302 5.334) (xy 4.064 5.334) (xy 4.064 4.572)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 1.905 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 1.905 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LTST-C235KGKRKT_1_1"
+				(pin input line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "K2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "K1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Microchip_AVR_Dx:AVR32DA32x-xPT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1886,309 +2400,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_Push_Dual"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_Push_Dual"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Push button switch, generic, symbol, four pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_Push_Dual_0_1"
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.048) (xy 0 3.556)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.016) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy -2.54 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_Push_Dual_1_1"
-				(rectangle
-					(start -3.175 5.715)
-					(end 3.175 -4.445)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -3155,7 +3366,7 @@
 	)
 	(hierarchical_label "GPIO 18"
 		(shape bidirectional)
-		(at 100.33 97.79 0)
+		(at 95.25 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3166,7 +3377,7 @@
 	)
 	(hierarchical_label "GPIO 9"
 		(shape bidirectional)
-		(at 100.33 63.5 0)
+		(at 95.25 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3177,7 +3388,7 @@
 	)
 	(hierarchical_label "GPIO 11"
 		(shape bidirectional)
-		(at 100.33 72.39 0)
+		(at 95.25 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3188,7 +3399,7 @@
 	)
 	(hierarchical_label "GPIO 15"
 		(shape bidirectional)
-		(at 100.33 86.36 0)
+		(at 95.25 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3199,7 +3410,7 @@
 	)
 	(hierarchical_label "GPIO 16"
 		(shape bidirectional)
-		(at 100.33 88.9 0)
+		(at 95.25 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3210,7 +3421,7 @@
 	)
 	(hierarchical_label "GPIO 12"
 		(shape bidirectional)
-		(at 100.33 74.93 0)
+		(at 95.25 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3221,7 +3432,7 @@
 	)
 	(hierarchical_label "GPIO 17"
 		(shape bidirectional)
-		(at 100.33 95.25 0)
+		(at 95.25 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3232,7 +3443,7 @@
 	)
 	(hierarchical_label "GPIO 14"
 		(shape bidirectional)
-		(at 100.33 83.82 0)
+		(at 95.25 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3243,7 +3454,7 @@
 	)
 	(hierarchical_label "GPIO 8"
 		(shape bidirectional)
-		(at 100.33 60.96 0)
+		(at 95.25 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3252,9 +3463,9 @@
 		)
 		(uuid "ac7dc188-f5b6-4eb2-bf0f-eb601c2f0d9c")
 	)
-	(hierarchical_label "GPIO 18"
+	(hierarchical_label "GPIO 19"
 		(shape bidirectional)
-		(at 100.33 100.33 0)
+		(at 95.25 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3265,7 +3476,7 @@
 	)
 	(hierarchical_label "GPIO 13"
 		(shape bidirectional)
-		(at 100.33 77.47 0)
+		(at 95.25 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3276,7 +3487,7 @@
 	)
 	(hierarchical_label "GPIO 10"
 		(shape bidirectional)
-		(at 100.33 66.04 0)
+		(at 95.25 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3520,6 +3731,105 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:LTST-C235KGKRKT")
+		(at 227.33 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "154cb47c-537c-4dfa-8f82-d4db2d088995")
+		(property "Reference" "D4"
+			(at 227.33 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C235KGKRKT"
+			(at 227.33 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ABsolute:LED_LiteOn_LTST-C235"
+			(at 226.568 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf"
+			(at 226.568 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED dual red/green, 4-pin, down-facing"
+			(at 227.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C235KGKRKT"
+			(at 227.33 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "f29675fd-89ef-4648-8405-68749218908a")
+		)
+		(pin "3"
+			(uuid "341849df-d692-4cd3-a02f-11e59ea453a1")
+		)
+		(pin "1"
+			(uuid "76683b7f-9979-4ad7-b84e-2e724fad4a3e")
+		)
+		(pin "2"
+			(uuid "b8ac73ec-9aa6-432e-8821-a2ba496282c7")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677/57549b9d-6e60-499b-9afc-96b20dbbfd22"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 67.31 50.8 0)
 		(unit 1)
@@ -3714,6 +4024,105 @@
 			(project "absolute_top"
 				(path "/b52d26ee-394e-4273-a301-2f2c99557677/57549b9d-6e60-499b-9afc-96b20dbbfd22"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LTST-C235KGKRKT")
+		(at 227.33 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3119524b-be30-4e6d-97ad-0bc7440e9fe9")
+		(property "Reference" "D3"
+			(at 227.33 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C235KGKRKT"
+			(at 227.33 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ABsolute:LED_LiteOn_LTST-C235"
+			(at 226.568 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf"
+			(at 226.568 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED dual red/green, 4-pin, down-facing"
+			(at 227.33 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C235KGKRKT"
+			(at 227.33 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "afe9231a-fb05-4635-8c22-fb2d6d8fd053")
+		)
+		(pin "3"
+			(uuid "b66cfc1a-6e1d-4bd0-bb69-f0d415197437")
+		)
+		(pin "1"
+			(uuid "915bf751-c118-4d90-bc43-46cbb99d1687")
+		)
+		(pin "2"
+			(uuid "4adbf46f-5445-44b0-85be-5ff113b24c36")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677/57549b9d-6e60-499b-9afc-96b20dbbfd22"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -4370,6 +4779,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 267.97 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "741250e1-9488-4b4e-81d8-b57222988857")
+		(property "Reference" "D2"
+			(at 266.3825 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C230KGKT"
+			(at 266.3825 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ABsolute:LED_LiteOn_LTST-C230"
+			(at 267.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-256/LTST-C230KGKT.pdf"
+			(at 267.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED single green, 2-pin, down-facing"
+			(at 267.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C230KGKT"
+			(at 267.97 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5ddc6eea-c1b0-46aa-a641-9b8cbfe120ae")
+		)
+		(pin "1"
+			(uuid "e0457fec-433d-4f46-a311-939235f348cd")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677/57549b9d-6e60-499b-9afc-96b20dbbfd22"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 67.31 29.21 0)
 		(unit 1)
@@ -4612,93 +5113,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual")
-		(at 134.62 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "945fb0a0-eabe-4c9b-803d-0b291e3bfd72")
-		(property "Reference" "SW1"
-			(at 134.62 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push_Dual"
-			(at 134.62 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, symbol, four pins"
-			(at 134.62 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f56bb611-cb2e-4279-a49d-905e30b4b693")
-		)
-		(pin "1"
-			(uuid "ae211db2-f731-49e1-bd6f-13e8121f5c50")
-		)
-		(pin "4"
-			(uuid "134aae99-8400-49c0-bd19-672e318866c1")
-		)
-		(pin "3"
-			(uuid "f3413dd0-618a-4d2f-bb37-b049fdea1f6b")
-		)
-		(instances
-			(project "absolute_top"
-				(path "/b52d26ee-394e-4273-a301-2f2c99557677/57549b9d-6e60-499b-9afc-96b20dbbfd22"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 177.8 115.57 0)
 		(mirror y)
@@ -4791,7 +5205,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9c754316-8321-49be-a418-c6a283923828")
 		(property "Reference" "J7"
@@ -4881,6 +5295,289 @@
 			(project "absolute_top"
 				(path "/b52d26ee-394e-4273-a301-2f2c99557677/57549b9d-6e60-499b-9afc-96b20dbbfd22"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LTST-C235KGKRKT")
+		(at 227.33 93.98 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0cf759a-0358-4a83-8898-a4498bac2170")
+		(property "Reference" "D5"
+			(at 227.33 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C235KGKRKT"
+			(at 227.33 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ABsolute:LED_LiteOn_LTST-C235"
+			(at 226.568 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf"
+			(at 226.568 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED dual red/green, 4-pin, down-facing"
+			(at 227.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C235KGKRKT"
+			(at 227.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "943478e4-cfae-4161-885e-d66509a2fdee")
+		)
+		(pin "3"
+			(uuid "3b31c04c-b5a3-400f-a70a-18a27132ba5a")
+		)
+		(pin "1"
+			(uuid "fe0fffe2-0cfc-4c8c-8b22-1872e8eebd35")
+		)
+		(pin "2"
+			(uuid "ae4fb608-39b7-43bc-b20d-486dda96491d")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677/57549b9d-6e60-499b-9afc-96b20dbbfd22"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 267.97 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a51de8dd-4a50-4fb9-8913-5eaa2526c8d6")
+		(property "Reference" "D7"
+			(at 266.3825 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C230KRKT"
+			(at 266.3825 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ABsolute:LED_LiteOn_LTST-C230"
+			(at 267.97 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-253/LTST-C230KRKT.pdf"
+			(at 267.97 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED single red, 2-pin, down-facing"
+			(at 267.97 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C230KRKT"
+			(at 267.97 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0cdfe98c-504d-4b03-b91e-e5c01fb8a288")
+		)
+		(pin "1"
+			(uuid "58a76a87-7913-4c36-8fc3-31c4ebd9dbff")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677/57549b9d-6e60-499b-9afc-96b20dbbfd22"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 267.97 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abd6d82c-6997-4340-861d-a39a9a9a7000")
+		(property "Reference" "D6"
+			(at 266.3825 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LTST-C230TBKT"
+			(at 266.3825 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ABsolute:LED_LiteOn_LTST-C230"
+			(at 267.97 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-176/LTST-C230TBKT.pdf"
+			(at 267.97 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED single blue, 2-pin, down-facing"
+			(at 267.97 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LTST-C230TBKT"
+			(at 267.97 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7c045d50-323a-4fce-bb7d-77486de7afcb")
+		)
+		(pin "1"
+			(uuid "cb7e0c74-d680-4686-a7b3-681e6baaae34")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677/57549b9d-6e60-499b-9afc-96b20dbbfd22"
+					(reference "D6")
 					(unit 1)
 				)
 			)

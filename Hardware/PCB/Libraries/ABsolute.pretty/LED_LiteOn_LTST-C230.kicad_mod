@@ -1,0 +1,347 @@
+(footprint "LED_LiteOn_LTST-C230"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "downfacing reverse mount led, https://optoelectronics.liteon.com/upload/download/DS22-2009-0219/LTST-C235KGKRKT.pdf")
+	(tags "LED reverse down facing")
+	(property "Reference" "REF**"
+		(at 0 2.44 0)
+		(layer "F.SilkS")
+		(uuid "d5dc4ca9-9a77-41fb-beee-83891e548490")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_LiteOn_LTST-C235"
+		(at 0.1 -2 0)
+		(layer "F.Fab")
+		(uuid "dd2e4896-8ac8-43cf-8f49-c678b20d9f29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "893908e2-8c9b-4f94-b11f-788b73f184fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94d3dc16-2dad-4505-bd0b-2fe8f8fa0448")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.8 -1.05)
+		(end -2.8 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ab3948b-f555-4670-a333-147aa635e076")
+	)
+	(fp_line
+		(start -2.8 1.05)
+		(end -1.8 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af3a1070-731b-4987-8069-9a8d19b8ffea")
+	)
+	(fp_line
+		(start -1.8 -1.05)
+		(end -2.8 -1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b51f9cb0-b2dc-4028-9287-f253d759ccc7")
+	)
+	(fp_line
+		(start 1.8 -1.05)
+		(end 2.8 -1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b8bd8c4-e003-40d4-979d-833d893c2503")
+	)
+	(fp_line
+		(start 2.8 -1.05)
+		(end 2.8 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d4705a79-560d-4722-9267-127007e4c209")
+	)
+	(fp_line
+		(start 2.8 1.05)
+		(end 1.8 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6555551c-79ff-4c6a-a167-1fe392e015dc")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 -1.1) (xy -1.74 -1.43) (xy -1.26 -1.43) (xy -1.5 -1.1)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ed539a55-e510-4626-8134-bcace8eec3db")
+	)
+	(fp_line
+		(start -2.9 -1.4)
+		(end -0.800001 -1.399998)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1bf11702-7e6d-49d7-a40f-55f51742dbb9")
+	)
+	(fp_line
+		(start -2.9 1.4)
+		(end -2.9 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "213caeca-6507-439a-9095-f8ce3dff6275")
+	)
+	(fp_line
+		(start -0.800001 1.400002)
+		(end -2.9 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c1888984-ce4d-442e-bb57-f35fa99a3a86")
+	)
+	(fp_line
+		(start 0.800001 -1.400002)
+		(end 2.9 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9bfb295-cd9b-495b-88cb-b672bdffce40")
+	)
+	(fp_line
+		(start 2.9 -1.4)
+		(end 2.9 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8157dc2-d3f1-4d95-b10d-e3a3aa00d64c")
+	)
+	(fp_line
+		(start 2.9 1.4)
+		(end 0.800001 1.399998)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43fd21c4-9a8f-4c4d-a81a-7d56747f63ca")
+	)
+	(fp_arc
+		(start -0.800001 -1.399998)
+		(mid -0.000001 -1.680624)
+		(end 0.799999 -1.399999)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd89242b-0297-42db-9a90-5dcd34afb34a")
+	)
+	(fp_arc
+		(start 0.800001 1.399998)
+		(mid 0.000001 1.680624)
+		(end -0.799999 1.399999)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "01ae9fff-b05b-4a0e-a09f-020d17b0875a")
+	)
+	(fp_line
+		(start -1.6 -0.3)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "01648de2-36db-4613-ba71-95ec0105f39e")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1311f7f8-3cf5-49f1-9549-f447eed0988d")
+	)
+	(fp_line
+		(start -1.1 -0.8)
+		(end -1.6 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cc782bd3-73b9-4482-b645-37a5c3ce5584")
+	)
+	(fp_line
+		(start -0.8 -0.75)
+		(end 0.8 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "927b8f8e-1167-4bf2-8f97-8bd2294f21cb")
+	)
+	(fp_line
+		(start -0.8 0.75)
+		(end -0.8 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "196f1d43-ef28-4e03-a95b-9755c1e5f2fc")
+	)
+	(fp_line
+		(start 0.8 -0.75)
+		(end 0.8 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b2ff239e-be7b-4172-8c27-eaf7534902f5")
+	)
+	(fp_line
+		(start 0.8 0.75)
+		(end -0.8 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ec700061-e8ea-425c-91c5-ca2e41afd969")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.1 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2e7db572-fc51-419d-ac28-2be32d91c336")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4fcb185b-3527-458e-9756-46e1654bd5bd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bef5a660-939c-4d47-8813-3403794f5f72")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0)
+		(size 2.1 2.8)
+		(drill oval 2.1 2.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "83d458ff-a14f-4a3c-a61e-832cc3beff97")
+	)
+	(pad "1" smd roundrect
+		(at -1.9 0 180)
+		(size 1.3 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6cfe56e3-9a7d-4cdc-a5cc-c176e8d36a3d")
+	)
+	(pad "2" smd roundrect
+		(at 1.9 0 180)
+		(size 1.3 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a2388b08-64db-42f1-9a30-68826d6349da")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_LiteOn_LTST-C235KGKRKT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

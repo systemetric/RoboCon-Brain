@@ -8518,7 +8518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78251bbc-7e4b-4341-9801-f363cf625388")
-		(property "Reference" "TP6"
+		(property "Reference" "TP10"
 			(at 166.37 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8579,7 +8579,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "TP6")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -9653,7 +9653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a246e0bb-be38-4763-8959-310fa0f9677d")
-		(property "Reference" "TP7"
+		(property "Reference" "TP11"
 			(at 180.34 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9712,7 +9712,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "TP7")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -12033,7 +12033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fabd1e73-8c1b-4ed1-8483-f60b49639a29")
-		(property "Reference" "TP4"
+		(property "Reference" "TP8"
 			(at 64.77 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12094,7 +12094,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "TP4")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -12190,7 +12190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdbd7165-689f-42dd-95f1-da91f163f50e")
-		(property "Reference" "TP5"
+		(property "Reference" "TP9"
 			(at 124.46 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12249,7 +12249,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/7b8af9f0-9d88-4077-9617-34cf45eb305a"
-					(reference "TP5")
+					(reference "TP9")
 					(unit 1)
 				)
 			)

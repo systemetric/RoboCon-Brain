@@ -9,11 +9,1157 @@
 		(date "2026-11-17")
 		(rev "1")
 		(comment 1 "Logan Poole")
+		(comment 2 "Root")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Fiducials"
+		(exclude_from_sim no)
+		(at 137.414 147.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13d1aff6-d995-45b8-8c5d-fa372423538b")
+	)
+	(text "Mounting holes"
+		(exclude_from_sim no)
+		(at 95.25 143.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8b93ae1-f642-489c-a04e-37e3d03bc8a1")
+	)
+	(junction
+		(at 88.9 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31b104dd-40f6-4c9e-9722-f9a2bdc7ecde")
+	)
+	(junction
+		(at 88.9 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42bc372a-3300-45b1-90fa-ae34bc82797c")
+	)
+	(junction
+		(at 88.9 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cebc8109-8101-4d99-8c6c-9dadc3ffd49d")
+	)
+	(wire
+		(pts
+			(xy 88.9 158.75) (xy 88.9 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4672d2-c631-4da9-a93a-7f3b812f692d")
+	)
+	(wire
+		(pts
+			(xy 149.86 104.14) (xy 154.94 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f17e21a-134b-4bf5-83c9-17ca1d321438")
+	)
+	(wire
+		(pts
+			(xy 149.86 109.22) (xy 154.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bc7f47-31b1-4748-8c72-2b094082d100")
+	)
+	(wire
+		(pts
+			(xy 149.86 111.76) (xy 154.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddb4d3d-be51-4ce2-9432-810073abbe36")
+	)
+	(wire
+		(pts
+			(xy 149.86 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e554b1a-3c71-4fc7-a7bf-360a927328be")
+	)
+	(wire
+		(pts
+			(xy 149.86 119.38) (xy 154.94 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f2607f-71db-4ab2-92b2-f087915a2b73")
+	)
+	(wire
+		(pts
+			(xy 149.86 121.92) (xy 154.94 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e79e3b7-f5d7-4eb8-80e3-adf59294da1e")
+	)
+	(wire
+		(pts
+			(xy 149.86 114.3) (xy 154.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f6ac2d-088d-49b9-99a5-8451309a308a")
+	)
+	(wire
+		(pts
+			(xy 88.9 153.67) (xy 88.9 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea2bf2a-32a6-4d6e-9793-6d3cb2982c84")
+	)
+	(wire
+		(pts
+			(xy 88.9 148.59) (xy 88.9 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7694cc8-bbac-4e5c-bb7d-733c72265cae")
+	)
+	(wire
+		(pts
+			(xy 149.86 106.68) (xy 154.94 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10dad91-3d4b-4183-9a11-860d977712e8")
+	)
+	(wire
+		(pts
+			(xy 149.86 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4d9cdf3-b8cd-4a47-af72-bc8f2f3750c7")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 154.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f781245e-e107-4a4f-aa82-629a94d7454b")
+	)
+	(wire
+		(pts
+			(xy 149.86 124.46) (xy 154.94 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bc71d6-0813-4eca-955e-0770ef08104a")
+	)
+	(wire
+		(pts
+			(xy 149.86 116.84) (xy 154.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa95b142-d02e-4643-83fb-0ab958e93c9f")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 158.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e05b584-3e35-42a8-82fd-16f7c6979c51")
+		(property "Reference" "H3"
+			(at 95.25 157.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 160.0199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 91.44 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f510815c-736b-4166-b879-9d64e23c20a1")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 163.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31ea581e-e6f1-4517-b5ac-ce0292244c77")
+		(property "Reference" "H4"
+			(at 95.25 162.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 91.44 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37d32c84-18da-4024-bae3-11d573d17102")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 135.89 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5315ed86-8697-412e-b621-b058deccf27e")
+		(property "Reference" "FID1"
+			(at 138.43 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 138.43 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 135.89 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 135.89 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "837e9155-fc8b-475c-a36b-e30e474efb4a")
+		(property "Reference" "H1"
+			(at 95.25 147.3199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 149.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 91.44 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e436393a-f56b-42e2-bde4-725081d58f19")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 135.89 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91fe1c64-e3a6-4c50-b71a-a0ef5c17e009")
+		(property "Reference" "FID3"
+			(at 138.43 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 138.43 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 135.89 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 135.89 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 91.44 153.67 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99a03245-abb8-4743-a434-edc3dbea0606")
+		(property "Reference" "H2"
+			(at 95.25 152.3999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 95.25 154.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 91.44 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 91.44 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b9c069a-8f5f-4568-819f-f43d3097cc0a")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 135.89 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0536d3f-f51b-415a-9160-43ba29da547d")
+		(property "Reference" "FID2"
+			(at 138.43 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 138.43 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 135.89 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 135.89 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd174ad4-fcd9-4316-abde-ae0e7e7621a3")
+		(property "Reference" "#PWR06"
+			(at 88.9 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c002eb7b-e673-41f1-aad9-f2fe449b0e85")
+		)
+		(instances
+			(project "absolute_top"
+				(path "/b52d26ee-394e-4273-a301-2f2c99557677"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 78.74 73.66)
-		(size 50.8 34.29)
+		(at 125.73 93.98)
+		(size 24.13 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,13 +1168,14 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 0 0 0.01176470588)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 0 194 194 1)
 		)
 		(uuid "57549b9d-6e60-499b-9afc-96b20dbbfd22")
 		(property "Sheetname" "Controller"
-			(at 78.74 72.9484 0)
+			(at 125.73 93.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39,7 +1186,7 @@
 			)
 		)
 		(property "Sheetfile" "controller.kicad_sch"
-			(at 78.74 108.5346 0)
+			(at 125.73 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -47,6 +1194,138 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GPIO 10" bidirectional
+			(at 149.86 101.6 0)
+			(uuid "08920992-21c3-4048-96c6-64350f071da4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 11" bidirectional
+			(at 149.86 104.14 0)
+			(uuid "d5da036c-40ac-46b4-a355-e05708670262")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 12" bidirectional
+			(at 149.86 106.68 0)
+			(uuid "f9787c76-098c-49b9-b7b2-bdfa9664096c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 13" bidirectional
+			(at 149.86 109.22 0)
+			(uuid "8840f0ec-d1c3-4cac-8839-830106dc451e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 14" bidirectional
+			(at 149.86 111.76 0)
+			(uuid "5c5140f6-b4ed-4e6b-94a9-c475aa12c998")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 15" bidirectional
+			(at 149.86 114.3 0)
+			(uuid "2f87b7d0-664c-45cf-93db-240d22d43326")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 16" bidirectional
+			(at 149.86 116.84 0)
+			(uuid "447495fa-f578-4f29-aca8-d0a95931aebc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 17" bidirectional
+			(at 149.86 119.38 0)
+			(uuid "f9ef4323-bd5d-46d9-a028-100cd808b5e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 18" bidirectional
+			(at 149.86 121.92 0)
+			(uuid "d8e5c4b0-a2c7-4065-95fc-8256e390f58a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 8" bidirectional
+			(at 149.86 96.52 0)
+			(uuid "0d0327c3-6fe0-4586-9330-980b272eda4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 9" bidirectional
+			(at 149.86 99.06 0)
+			(uuid "bf73dc21-e7be-4ee8-b72b-37ad28d73495")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO 19" bidirectional
+			(at 149.86 124.46 0)
+			(uuid "76323f8e-55d7-4976-bac5-13b271999915")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -58,8 +1337,8 @@
 		)
 	)
 	(sheet
-		(at 154.94 95.25)
-		(size 45.72 30.48)
+		(at 154.94 93.98)
+		(size 24.13 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -68,13 +1347,14 @@
 		(stroke
 			(width 0.1524)
 			(type solid)
+			(color 0 0 0 0.01176470588)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 0 194 0 1)
 		)
 		(uuid "b7821d29-de6f-4952-8c2e-7c84c94f7d4c")
 		(property "Sheetname" "Expansion"
-			(at 154.94 94.5384 0)
+			(at 154.94 93.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -85,7 +1365,7 @@
 			)
 		)
 		(property "Sheetfile" "expansion.kicad_sch"
-			(at 154.94 126.3146 0)
+			(at 154.94 127.5846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -93,6 +1373,138 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "GPIO 10" bidirectional
+			(at 154.94 101.6 180)
+			(uuid "5263e6e2-e89e-43a5-a83b-972de0cb9766")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 11" bidirectional
+			(at 154.94 104.14 180)
+			(uuid "fc337d8c-bd9c-4437-ae25-b66c8818cdda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 12" bidirectional
+			(at 154.94 106.68 180)
+			(uuid "b1892a14-64c7-471d-a08c-1ac45e1d4e34")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 13" bidirectional
+			(at 154.94 109.22 180)
+			(uuid "0f2b3bf3-5d2f-4cb8-b027-2caa882815de")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 14" bidirectional
+			(at 154.94 111.76 180)
+			(uuid "003634f1-b89d-44e1-9adf-bd46093d359e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 15" bidirectional
+			(at 154.94 114.3 180)
+			(uuid "dd852dfa-5cd2-497b-84d9-50444d5642eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 16" bidirectional
+			(at 154.94 116.84 180)
+			(uuid "663cee57-1ef0-4a80-b434-44dee76d1ec7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 17" bidirectional
+			(at 154.94 119.38 180)
+			(uuid "39fc4f19-9f56-402a-be42-5db4321150ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 18" bidirectional
+			(at 154.94 121.92 180)
+			(uuid "44b6d769-f5dc-430b-bf74-5d7b07331dc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 8" bidirectional
+			(at 154.94 96.52 180)
+			(uuid "bc969d10-9fa8-4c4a-b4d5-04e16088b8bc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 9" bidirectional
+			(at 154.94 99.06 180)
+			(uuid "b3c61bb0-2d4b-4935-ac8a-d727a0ac5e4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO 19" bidirectional
+			(at 154.94 124.46 180)
+			(uuid "6f1cf095-84df-4a6e-8018-8d66f57553bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 255 255 255 1)
+				)
+				(justify left)
 			)
 		)
 		(instances

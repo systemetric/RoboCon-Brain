@@ -1429,7 +1429,7 @@
 			(color 0 0 0 0.01176470588)
 		)
 		(fill
-			(color 195 48 255 1)
+			(color 194 0 194 1)
 		)
 		(uuid "376f80db-bcbb-46d5-a81a-454654732cae")
 		(property "Sheetname" "USB"
@@ -1477,7 +1477,7 @@
 			(color 0 0 0 0.01176470588)
 		)
 		(fill
-			(color 255 142 0 1)
+			(color 221 133 0 1)
 		)
 		(uuid "7b8af9f0-9d88-4077-9617-34cf45eb305a")
 		(property "Sheetname" "Power"
@@ -1613,7 +1613,7 @@
 			(color 0 0 0 0.01960784314)
 		)
 		(fill
-			(color 35 215 39 1)
+			(color 0 194 0 1)
 		)
 		(uuid "7d0a1d95-c7f5-461f-aded-c152f71c9d40")
 		(property "Sheetname" "Motors"
@@ -1738,7 +1738,7 @@
 			(color 0 0 0 0.01960784314)
 		)
 		(fill
-			(color 0 131 255 1)
+			(color 0 194 194 1)
 		)
 		(uuid "c45e555e-a466-4a2c-b4b1-0750a6ee5145")
 		(property "Sheetname" "Controller"
