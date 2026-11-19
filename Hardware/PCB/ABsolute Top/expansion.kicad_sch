@@ -200,9 +200,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "GPIO headers"
+		(exclude_from_sim no)
+		(at 34.544 22.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6dab673b-3029-4b40-ae15-a3323f2d92ee")
+	)
 	(hierarchical_label "GPIO 8"
 		(shape bidirectional)
-		(at 48.26 39.37 0)
+		(at 36.83 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -213,7 +223,7 @@
 	)
 	(hierarchical_label "GPIO 17"
 		(shape bidirectional)
-		(at 48.26 73.66 0)
+		(at 36.83 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -224,7 +234,7 @@
 	)
 	(hierarchical_label "GPIO 9"
 		(shape bidirectional)
-		(at 48.26 41.91 0)
+		(at 36.83 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -235,7 +245,7 @@
 	)
 	(hierarchical_label "GPIO 14"
 		(shape bidirectional)
-		(at 48.26 62.23 0)
+		(at 36.83 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -246,7 +256,7 @@
 	)
 	(hierarchical_label "GPIO 12"
 		(shape bidirectional)
-		(at 48.26 53.34 0)
+		(at 36.83 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -257,7 +267,7 @@
 	)
 	(hierarchical_label "GPIO 18"
 		(shape bidirectional)
-		(at 48.26 76.2 0)
+		(at 36.83 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -268,7 +278,7 @@
 	)
 	(hierarchical_label "GPIO 15"
 		(shape bidirectional)
-		(at 48.26 64.77 0)
+		(at 36.83 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -279,7 +289,7 @@
 	)
 	(hierarchical_label "GPIO 19"
 		(shape bidirectional)
-		(at 48.26 78.74 0)
+		(at 36.83 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -290,7 +300,7 @@
 	)
 	(hierarchical_label "GPIO 16"
 		(shape bidirectional)
-		(at 48.26 67.31 0)
+		(at 36.83 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -301,7 +311,7 @@
 	)
 	(hierarchical_label "GPIO 11"
 		(shape bidirectional)
-		(at 48.26 50.8 0)
+		(at 36.83 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -312,7 +322,7 @@
 	)
 	(hierarchical_label "GPIO 13"
 		(shape bidirectional)
-		(at 48.26 55.88 0)
+		(at 36.83 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -323,7 +333,7 @@
 	)
 	(hierarchical_label "GPIO 10"
 		(shape bidirectional)
-		(at 48.26 44.45 0)
+		(at 36.83 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -334,7 +344,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 43.18 76.2 0)
+		(at 31.75 67.31 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -345,8 +355,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "328d56e1-36b0-4c83-a968-54dd6067c1db")
-		(property "Reference" "J5"
-			(at 43.18 69.85 0)
+		(property "Reference" "J8"
+			(at 31.75 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -356,7 +366,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 43.18 82.55 0)
+			(at 31.75 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -367,7 +377,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Harwin:Harwin_M20-89003xx_1x03_P2.54mm_Horizontal"
-			(at 43.18 76.2 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -378,7 +388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 76.2 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -389,7 +399,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 76.2 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -411,7 +421,7 @@
 		(instances
 			(project "absolute_top"
 				(path "/b52d26ee-394e-4273-a301-2f2c99557677/b7821d29-de6f-4952-8c2e-7c84c94f7d4c"
-					(reference "J5")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -419,7 +429,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 43.18 41.91 0)
+		(at 31.75 33.02 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -430,8 +440,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40b049cf-340a-402e-96ff-ef6206aa47c3")
-		(property "Reference" "J2"
-			(at 43.18 35.56 0)
+		(property "Reference" "J5"
+			(at 31.75 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -441,7 +451,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 43.18 48.26 0)
+			(at 31.75 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -452,7 +462,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Harwin:Harwin_M20-89003xx_1x03_P2.54mm_Horizontal"
-			(at 43.18 41.91 0)
+			(at 31.75 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -463,7 +473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 41.91 0)
+			(at 31.75 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -474,7 +484,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 41.91 0)
+			(at 31.75 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -496,7 +506,7 @@
 		(instances
 			(project "absolute_top"
 				(path "/b52d26ee-394e-4273-a301-2f2c99557677/b7821d29-de6f-4952-8c2e-7c84c94f7d4c"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -504,7 +514,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 43.18 53.34 0)
+		(at 31.75 44.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -515,8 +525,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55c2916b-6770-4a09-a178-549426e3d929")
-		(property "Reference" "J3"
-			(at 43.18 46.99 0)
+		(property "Reference" "J6"
+			(at 31.75 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -526,7 +536,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 43.18 59.69 0)
+			(at 31.75 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -537,7 +547,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Harwin:Harwin_M20-89003xx_1x03_P2.54mm_Horizontal"
-			(at 43.18 53.34 0)
+			(at 31.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -548,7 +558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 53.34 0)
+			(at 31.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -559,7 +569,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 53.34 0)
+			(at 31.75 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -581,7 +591,7 @@
 		(instances
 			(project "absolute_top"
 				(path "/b52d26ee-394e-4273-a301-2f2c99557677/b7821d29-de6f-4952-8c2e-7c84c94f7d4c"
-					(reference "J3")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -589,7 +599,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 43.18 64.77 0)
+		(at 31.75 55.88 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -600,8 +610,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5decee31-f6de-438e-8fac-847707212465")
-		(property "Reference" "J4"
-			(at 43.18 58.42 0)
+		(property "Reference" "J7"
+			(at 31.75 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -611,7 +621,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 43.18 71.12 0)
+			(at 31.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -622,7 +632,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Harwin:Harwin_M20-89003xx_1x03_P2.54mm_Horizontal"
-			(at 43.18 64.77 0)
+			(at 31.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -633,7 +643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 64.77 0)
+			(at 31.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -644,7 +654,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 43.18 64.77 0)
+			(at 31.75 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -666,7 +676,7 @@
 		(instances
 			(project "absolute_top"
 				(path "/b52d26ee-394e-4273-a301-2f2c99557677/b7821d29-de6f-4952-8c2e-7c84c94f7d4c"
-					(reference "J4")
+					(reference "J7")
 					(unit 1)
 				)
 			)

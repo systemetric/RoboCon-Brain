@@ -1,0 +1,478 @@
+(footprint "MagneticBuzzer_CUI_CMT-8504-100-SMT"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "magnetic transducer buzzer, 5V, SPL of 100 dB at 10 cm, https://www.cuidevices.com/product/resource/pdf/cmt-8504-100-smt-tr.pdf")
+	(tags "CMT 8504")
+	(property "Reference" "REF**"
+		(at 0.2 -5.9 0)
+		(layer "F.SilkS")
+		(uuid "c56688b1-5f34-406d-8f48-2adce62a1294")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MagneticBuzzer_CUI_CMT-8504-100-SMT"
+		(at 0.1 6 0)
+		(layer "F.Fab")
+		(uuid "f2049377-0fb4-4eb3-97f3-06c92e8932bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5e652b4-9424-4c95-9a3f-3e195d7a7ebb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "917b99f0-e63c-445b-8191-7f8926e2207a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.05 -5.05)
+		(end -4.05 -5.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9db2ca8f-00f1-4773-887a-29071ec0b6ed")
+	)
+	(fp_line
+		(start -5.05 -4.05)
+		(end -5.05 -5.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99d7aa0b-c632-43e6-8ba0-d218033cefe9")
+	)
+	(fp_line
+		(start -4.35 -2)
+		(end -4.35 2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c7c5810-fd6d-44d9-b199-83efce758320")
+	)
+	(fp_line
+		(start -2 4.35)
+		(end 2 4.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92d56c47-e1a6-488a-9836-6cd72c20747d")
+	)
+	(fp_line
+		(start 2 -4.35)
+		(end -2 -4.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f59a06a-a0c5-40f3-b6fc-e2ea163598a3")
+	)
+	(fp_line
+		(start 4.35 2)
+		(end 4.35 -2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5c24cc2-90e9-41ae-a6c0-accd6b24b3e9")
+	)
+	(fp_line
+		(start -5 -5)
+		(end -2 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "00b276a9-a9b3-4e0e-a4c7-88173de81082")
+	)
+	(fp_line
+		(start -5 -2)
+		(end -5 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "325fb811-6c74-4d5e-8103-a69e56224387")
+	)
+	(fp_line
+		(start -5 -2)
+		(end -4.5 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3bec0202-f123-4084-90e4-9b6066c116d8")
+	)
+	(fp_line
+		(start -5 2)
+		(end -5 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84078e38-a792-4026-a86a-c407e3bc68bc")
+	)
+	(fp_line
+		(start -4.5 -2)
+		(end -4.5 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08019b6d-8579-40e1-bedf-8a8f1437e63d")
+	)
+	(fp_line
+		(start -4.5 2)
+		(end -5 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "042faed5-b695-415c-8b45-01eb7100ddac")
+	)
+	(fp_line
+		(start -2 -5)
+		(end -2 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "637d1314-ff50-43f3-8f0d-9a272b08d830")
+	)
+	(fp_line
+		(start -2 -4.5)
+		(end 2 -4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "54512b6a-8e35-430c-99f3-89543446440d")
+	)
+	(fp_line
+		(start -2 4.5)
+		(end -2 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88e7ead4-cba0-41bc-a79b-3d81cb55bd11")
+	)
+	(fp_line
+		(start -2 5)
+		(end -5 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "37504fd8-cec4-4aa6-a774-d2c152a22040")
+	)
+	(fp_line
+		(start 2 -5)
+		(end 5 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4b319fe-f8b9-4b00-b64f-95b6b349e940")
+	)
+	(fp_line
+		(start 2 -4.5)
+		(end 2 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b577020-da9b-4354-8e50-fdc7f0db4b3c")
+	)
+	(fp_line
+		(start 2 4.5)
+		(end -2 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64924af9-b43b-43ce-8290-0ba445ea57da")
+	)
+	(fp_line
+		(start 2 5)
+		(end 2 4.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "14b464b9-e616-40e3-8d36-d78a983f0d19")
+	)
+	(fp_line
+		(start 4.5 -2)
+		(end 4.5 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab83d5db-bac8-42b4-98c9-b3fb19424883")
+	)
+	(fp_line
+		(start 4.5 2)
+		(end 5 2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e33fecbf-0e17-473b-9741-48926bf2651f")
+	)
+	(fp_line
+		(start 5 -2)
+		(end 4.5 -2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a2bf5a0b-d2e6-42a2-bc19-0f1534032d7e")
+	)
+	(fp_line
+		(start 5 -2)
+		(end 5 -5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0403d7b-5845-4fda-a369-4bbd99e7b2a1")
+	)
+	(fp_line
+		(start 5 2)
+		(end 5 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e135af7-eecb-410d-ad00-7e8479b44b55")
+	)
+	(fp_line
+		(start 5 5)
+		(end 2 5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d38cf613-9693-4fe1-9873-30565db2169c")
+	)
+	(fp_line
+		(start -4.25 -4.25)
+		(end 4.25 -4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3efa1969-1e17-45c3-b84c-4ca0b3c3e12a")
+	)
+	(fp_line
+		(start -4.25 -2.75)
+		(end -2.75 -4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e302275f-7802-4217-9415-8e20e1b62740")
+	)
+	(fp_line
+		(start -4.25 4.25)
+		(end -4.25 -4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b3ac8166-6cdc-4d40-a9d4-8793fbe43492")
+	)
+	(fp_line
+		(start -2.75 4.25)
+		(end -4.25 2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea57ba0c-d9ed-489d-b15d-b5c40f34c128")
+	)
+	(fp_line
+		(start 2.75 -4.25)
+		(end 4.25 -2.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "385d3db0-42e8-4ed8-bb63-29d2fa3b8ad3")
+	)
+	(fp_line
+		(start 4.25 -4.25)
+		(end 4.25 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b5cefb52-7bd3-432c-bb0d-4e32ece8b062")
+	)
+	(fp_line
+		(start 4.25 2.75)
+		(end 2.75 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85365a2a-dca7-4ceb-952f-7e0c8e6e9b2d")
+	)
+	(fp_line
+		(start 4.25 4.25)
+		(end -4.25 4.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "918e14ca-c3df-4941-a589-0c0790c30e50")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.925 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b9bf68a7-cefa-49f8-a995-7892e41bbcff")
+	)
+	(fp_text user "+"
+		(at -5.1 -1.6 270)
+		(layer "F.SilkS")
+		(uuid "0421f90a-bbd9-48ca-8463-1780e51a1f86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -2.75 -2.75 270)
+		(layer "F.Fab")
+		(uuid "19ae24ed-47e2-4617-80fe-44afefa3c6dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 1.7 0)
+		(layer "F.Fab")
+		(uuid "46d7fb21-b6b0-4dcd-8ba0-791cb46d6cff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.5 -3.5 270)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9ffd6ab8-2176-4adb-81bb-76c358c5592c")
+	)
+	(pad "2" smd rect
+		(at -3.5 3.5 270)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "38a34721-74ef-422f-88be-127850bcaf21")
+	)
+	(pad "MP" smd rect
+		(at 3.5 -3.5 270)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bb5c15d0-2833-4cad-96b9-e0481ebb9b6b")
+	)
+	(pad "MP" smd rect
+		(at 3.5 3.5 270)
+		(size 2.5 2.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9d964aaf-8a9a-4adb-93e4-1a8f4a5e1965")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Buzzer_Beeper.3dshapes/MagneticBuzzer_CUI_CMT-8504-100-SMT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

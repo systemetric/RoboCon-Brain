@@ -5946,16 +5946,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 128.27) (xy 194.31 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "236ac0a4-cb7a-4006-aab6-2ba4326ac1b3")
-	)
-	(wire
-		(pts
 			(xy 135.89 158.75) (xy 143.51 158.75)
 		)
 		(stroke
@@ -5993,6 +5983,16 @@
 			(type default)
 		)
 		(uuid "28f22555-4bb0-4f20-80a6-264fab78e723")
+	)
+	(wire
+		(pts
+			(xy 194.31 133.35) (xy 205.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a44d2b8-1736-4bd0-9e7c-b825d306e955")
 	)
 	(wire
 		(pts
@@ -6156,6 +6156,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 128.27) (xy 205.74 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad1899b-1a80-4686-ad81-e4ba7633e865")
+	)
+	(wire
+		(pts
 			(xy 184.15 40.64) (xy 184.15 49.53)
 		)
 		(stroke
@@ -6166,7 +6176,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 69.85) (xy 213.36 69.85)
+			(xy 196.85 69.85) (xy 218.44 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6293,16 +6303,6 @@
 			(type default)
 		)
 		(uuid "79064c66-4621-4c24-b9f9-85e378bd8aa1")
-	)
-	(wire
-		(pts
-			(xy 194.31 133.35) (xy 209.55 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79e350ff-0aca-4faf-903c-8ce9bef5e4f6")
 	)
 	(wire
 		(pts
@@ -6616,16 +6616,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 130.81) (xy 194.31 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e913debc-1b66-4756-a62d-d448e5ce6c04")
-	)
-	(wire
-		(pts
 			(xy 49.53 46.99) (xy 52.07 46.99)
 		)
 		(stroke
@@ -6643,6 +6633,16 @@
 			(type default)
 		)
 		(uuid "e9f1be63-9ef2-4b08-8fc7-e599c9bfb1ac")
+	)
+	(wire
+		(pts
+			(xy 194.31 130.81) (xy 205.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9908c3-405d-4360-ac17-b46e896ce0ff")
 	)
 	(wire
 		(pts
@@ -8140,85 +8140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 209.55 130.81 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28fdde71-d111-4f14-8d8d-ae0873389451")
-		(property "Reference" "TP3"
-			(at 210.82 129.5399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MISO"
-			(at 210.82 132.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 204.47 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 209.55 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db907b36-c907-4966-84ce-51d3bbc7cdea")
-		)
-		(instances
-			(project "absolute_bottom"
-				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 198.12 44.45 180)
 		(unit 1)
@@ -8312,7 +8233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3598ae9b-1616-4e27-9ed2-ea7997748773")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 194.31 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8372,7 +8293,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8702,83 +8623,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 278.13 38.1 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d40387d-87b7-44b2-ab52-9500c8e7be73")
-		(property "Reference" "TP7"
-			(at 278.13 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UPDI"
-			(at 278.13 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 278.13 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 278.13 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "51775c22-eff9-4ac7-9e9a-0f8a52040727")
-		)
-		(instances
-			(project "absolute_bottom"
-				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 64.77 153.67 0)
 		(unit 1)
@@ -8855,84 +8699,6 @@
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 209.55 128.27 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bb8d055-4b57-43c8-a893-29f405c98e88")
-		(property "Reference" "TP2"
-			(at 209.55 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MOSI"
-			(at 209.55 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 209.55 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 209.55 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6f3d7289-1f8e-4a84-81f3-9bc8bc90287c")
-		)
-		(instances
-			(project "absolute_bottom"
-				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -9287,7 +9053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "647e66aa-8d96-4812-941a-e64305a0298d")
-		(property "Reference" "TP6"
+		(property "Reference" "TP3"
 			(at 218.44 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9346,7 +9112,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
-					(reference "TP6")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -10403,6 +10169,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 218.44 69.85 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "917930f5-db14-498b-8c3a-bc2f004e461c")
+		(property "Reference" "TP4"
+			(at 218.44 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UPDI"
+			(at 218.44 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 223.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 218.44 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b95fa67a-1468-4206-8158-e199a0b4f428")
+		)
+		(instances
+			(project "absolute_bottom"
+				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 62.23 27.94 0)
 		(unit 1)
@@ -10642,84 +10486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 209.55 133.35 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c8f4594-28f6-4557-addf-6655faa16884")
-		(property "Reference" "TP4"
-			(at 209.55 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SCK"
-			(at 209.55 138.43 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 209.55 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 209.55 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34122691-7a46-423d-a5f3-b62d85f6060c")
-		)
-		(instances
-			(project "absolute_bottom"
-				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 198.12 40.64 0)
 		(unit 1)
@@ -10731,7 +10497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a67e86ca-2234-4d3a-9980-662d922b79da")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 198.12 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10791,7 +10557,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11578,7 +11344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cebc5e61-cec4-41c3-b40d-623a1ab45c55")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 194.31 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -11638,7 +11404,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -12391,7 +12157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f81f512d-6ee6-4c0f-b1a7-29bf091349a7")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 198.12 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12451,7 +12217,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12468,7 +12234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc203d7c-b0be-49ba-bb77-eead072e31ac")
-		(property "Reference" "TP5"
+		(property "Reference" "TP2"
 			(at 218.44 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12527,7 +12293,7 @@
 		(instances
 			(project "absolute_bottom"
 				(path "/c85fa964-e79a-4186-9da5-35b609a2eb49/c45e555e-a466-4a2c-b4b1-0750a6ee5145"
-					(reference "TP5")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
